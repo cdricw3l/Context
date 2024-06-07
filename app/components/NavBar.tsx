@@ -25,13 +25,13 @@ const NavBar: React.FC = () => {
   const { response, setResponse, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, setIsTextView } = useResponse();
 
   const fetchTree = async () => {
-    setLoading(true);
+    //setLoading(true); probleme
     await fetchRepoTree(repoUrl, 'main', setTreeData, setBranches, setError);
     setLoading(false);
   };
 
   const fetchBranchTree = async (branch: string) => {
-    setLoading(true);
+    //setLoading(true); probleme
     console.log(branch)
     await fetchRepoTree(repoUrl, branch, setTreeData, setBranches, setError);
     setLoading(false);

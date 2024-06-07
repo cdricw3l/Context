@@ -1,5 +1,5 @@
 
-import "../../app/globals.css";
+/*import "../../app/globals.css";
 import { getProviders, signIn } from 'next-auth/react';
 import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
@@ -57,4 +57,4 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   };
 };
 
-export default SignIn;
+export default SignIn;*/
