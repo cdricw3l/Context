@@ -17,7 +17,7 @@ interface FileDetail {
 
 export default function LeftPanel() {
   const [error, setError] = useState('');
-  const [repoUrl, setRepoUrl] = useState('https://github.com/jhonny-jane-w3l/next_rust_gpt.git');
+  const [repoUrl, setRepoUrl] = useState('https://github.com/jhonny-jane-w3l/Context.git');
   const [branch, setBranch] = useState('main');
   const [accessToken, setAccessToken] = useState('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');
   const { response, setResponse, treeData, setTreeData, userTreeState, setUserTreeState } = useResponse();

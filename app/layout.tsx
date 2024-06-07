@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import SectionContainer from "./components/SectionContainer";
 import { ResponseProvider } from "./context/ResponseContext";
-import SessionProviderWrapper from './components/SessionProviderWrapper';
+//import SessionProviderWrapper from './components/SessionProviderWrapper';
 import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -28,14 +28,14 @@ export default function RootLayout({
         <title>Exemple de Page avec Tailwind CSS</title>
       </head>
       <body className={`${inter.className} flex flex-col h-screen max-h-screen w-screen bg-gradient text-black antialiased bg-gradient-to-r from-blue-500 to-purple-500 overflow-hidden dark:text-white`}>
-        <SessionProviderWrapper>
+        
           <ResponseProvider>
             <SectionContainer>
               {children}
               <Footer />
             </SectionContainer>
           </ResponseProvider>
-        </SessionProviderWrapper>
+        
       </body>
     </html>
   );
