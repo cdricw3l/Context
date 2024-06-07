@@ -18,6 +18,10 @@ interface ResponseContextProps {
   setStructure: React.Dispatch<React.SetStateAction<Directory | null>>;
   fileDetails: FileDetail[];
   setFileDetails: React.Dispatch<React.SetStateAction<FileDetail[]>>;
+  messages: string[];
+  setMessages: React.Dispatch<React.SetStateAction<string[]>>;
+  textTree: string;
+  setTextTree: React.Dispatch<React.SetStateAction<string>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -37,6 +41,8 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [isTextView, setIsTextView] = useState<boolean>(false);
   const [structure, setStructure] = useState<Directory | null>(null);
   const [fileDetails, setFileDetails] = useState<FileDetail[]>([]);
+  const [messages, setMessages] = useState<string[]>([]);
+  const [textTree, setTextTree] = useState<string>('');
 
   return (
     <ResponseContext.Provider
@@ -53,6 +59,10 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setStructure,
         fileDetails,
         setFileDetails,
+        messages,
+        setMessages,
+        textTree,
+        setTextTree,
       }}
     >
       {children}

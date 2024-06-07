@@ -1,3 +1,5 @@
+// app/components/NavBar.tsx
+
 import React, { useState, useEffect } from 'react';
 import Logo from '../data/logo.svg';
 import Tree from './Tree';
@@ -18,9 +20,9 @@ const NavBar: React.FC = () => {
   const [branches, setBranches] = useState<string[]>([]);
   const [selectedBranch, setSelectedBranch] = useState('');
   const [error, setError] = useState('');
-  const [textTree, setTextTree] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
-  const { setFileDetails, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, setIsTextView } = useResponse();
+  const { setFileDetails, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, setIsTextView, messages, fileDetails, textTree, setTextTree } = useResponse();
+  const [aggregationSuccess, setAggregationSuccess] = useState(false);
 
   const fetchTree = async () => {
     await fetchRepoTree(repoUrl, 'main', setTreeData, setBranches, setError);
@@ -68,7 +70,7 @@ const NavBar: React.FC = () => {
       const textTree = generateTextTree(treeData);
       setTextTree(textTree);
     }
-  }, [treeData]);
+  }, [treeData, setTextTree]);
 
   useEffect(() => {
     if (branches.length > 0 && !selectedBranch) {
@@ -86,6 +88,21 @@ const NavBar: React.FC = () => {
   const handleFileClick = (sha: string, fileName: string) => {
     console.log(`File clicked: ${fileName} with SHA: ${sha}`);
     fetchFileContent(sha, fileName);
+  };
+
+  const handleAggregateAndCopy = () => {
+    const aggregatedData = `
+      Branch Name: ${selectedBranch}
+      Tree Structure:
+      ${textTree}
+      File Details:
+      ${fileDetails.map(file => `File: ${file.fileName}\nContent:\n${file.fileContent}`).join('\n\n')}
+      Messages:
+      ${messages.join('\n')}
+    `;
+    navigator.clipboard.writeText(aggregatedData)
+      .then(() => setAggregationSuccess(true))
+      .catch(() => setAggregationSuccess(false));
   };
 
   return (
@@ -114,6 +131,10 @@ const NavBar: React.FC = () => {
             <div className="text-blue-600 w-full">
               <div className="flex flex-col p-2 justify-center items-center">
                 {isTextView && <ButtonCopy textToCopy={textTree} />}
+                <button onClick={handleAggregateAndCopy} className="mt-4 p-2 bg-green-500 text-white rounded">
+                  Aggregate and Copy
+                </button>
+                {aggregationSuccess && <p className="text-green-500 mt-2">Data copied to clipboard!</p>}
               </div>
               {error && <ErrorMessage error={error} />}
               {isTextView ? (
