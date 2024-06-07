@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Tchat from './Tchat';
+import Tchat from './Recherche';
 import Sprech from './Sprech';
 
 export default function RightPanel() {

@@ -1,7 +1,9 @@
+// app/context/ResponseContext.tsx
+
 'use client';
 
 import React, { createContext, useContext, useState } from 'react';
-import { FileNode, Directory } from '../utils/types';
+import { FileNode, Directory, FileDetail } from '../utils/types';
 
 interface ResponseContextProps {
   response: any;
@@ -14,6 +16,8 @@ interface ResponseContextProps {
   setIsTextView: React.Dispatch<React.SetStateAction<boolean>>;
   structure: Directory | null;
   setStructure: React.Dispatch<React.SetStateAction<Directory | null>>;
+  fileDetails: FileDetail[];
+  setFileDetails: React.Dispatch<React.SetStateAction<FileDetail[]>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -27,12 +31,12 @@ export const useResponse = () => {
 };
 
 export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  
   const [response, setResponse] = useState<any>(null);
   const [treeData, setTreeData] = useState<FileNode | null>(null);
   const [userTreeState, setUserTreeState] = useState<FileNode | null>(null);
   const [isTextView, setIsTextView] = useState<boolean>(false);
   const [structure, setStructure] = useState<Directory | null>(null);
+  const [fileDetails, setFileDetails] = useState<FileDetail[]>([]);
 
   return (
     <ResponseContext.Provider
@@ -47,6 +51,8 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setIsTextView,
         structure,
         setStructure,
+        fileDetails,
+        setFileDetails,
       }}
     >
       {children}

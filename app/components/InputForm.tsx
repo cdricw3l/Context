@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { fetchRepoData } from '../utils/apiUtils';
 import { useResponse } from '../context/ResponseContext';
 
 type InputFormProps = {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Directory, File, ProjectStructureProps } from '../utils/types';
+import {  File, ProjectStructureProps } from '../utils/types';
 import NavFile from './Navfile';
 import FileDetails from './FileDetails';
 import { copyToClipboard } from '../utils/clipboardUtils';

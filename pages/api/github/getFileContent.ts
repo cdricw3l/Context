@@ -19,8 +19,12 @@ export default async function handler(
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
-  
-  const { repoUrl, sha, accessToken , extend } = req.body;
+
+  const accessToken = process.env.GITHUB_TOKEN;
+  if (!accessToken) {
+    return res.status(500).json({ error: 'GitHub access token is not set' });
+  }
+  const { repoUrl, sha , extend } = req.body;
 
   if (!repoUrl || typeof repoUrl !== 'string') {
     return res.status(400).json({ error: 'Repository URL is required' });
