@@ -4,7 +4,7 @@ import { FileNode, TreeElement } from './types';
 export const buildTree = (elements: TreeElement[]): FileNode => {
   console.log('Building tree from elements:', elements);
 
-  const root: FileNode = { name: 'Root', path: '.', type: 'tree', children: [] };
+  const root: FileNode = { name: 'Root', path: '.', type: 'tree', children: [], sha: '', isOpen: false };
   const map = new Map<string, FileNode>();
   map.set('', root);
 
@@ -19,7 +19,7 @@ export const buildTree = (elements: TreeElement[]): FileNode => {
           name: part,
           path: currentPath,
           type: index === parts.length - 1 ? type : 'tree',
-          sha: index === parts.length - 1 ? sha : undefined, // Ajoutez le SHA uniquement pour les fichiers (blobs)
+          sha: index === parts.length - 1 ? sha : '', // Ajoutez le SHA uniquement pour les fichiers (blobs)
           children: [],
           isOpen: false
         };

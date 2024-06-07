@@ -1,4 +1,3 @@
-// app/components/NavBar.tsx
 import React, { useState, useEffect } from 'react';
 import Logo from '../data/logo.svg';
 import Tree from './Tree';
@@ -23,7 +22,6 @@ const NavBar: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const { setFileDetails, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, setIsTextView } = useResponse();
 
-
   const fetchTree = async () => {
     await fetchRepoTree(repoUrl, 'main', setTreeData, setBranches, setError);
     setLoading(false);
@@ -38,7 +36,7 @@ const NavBar: React.FC = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ repoUrl, sha,extend}),
+        body: JSON.stringify({ repoUrl, sha, extend }),
       });
       const data = await res.json();
 
@@ -47,9 +45,9 @@ const NavBar: React.FC = () => {
           fileName,
           fileContent: data.isBinary ? "Binary file cannot be displayed" : data.content,
           fileContentMinimized: data.isBinary ? "Binary file cannot be displayed" : data.content.replace(/\n/g, ' '),
-          isBinary: data.isBinary
+          isBinary: data.isBinary,
         };
-          
+
         setFileDetails((prevDetails) => [...prevDetails, newFileDetail]);
       } else {
         setError(data.message);
