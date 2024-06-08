@@ -1,5 +1,3 @@
-// app/components/NavBar.tsx
-
 import React, { useState, useEffect } from 'react';
 import Logo from '../data/logo.svg';
 import Tree from './Tree';
@@ -8,7 +6,6 @@ import InputForm from './InputForm';
 import ErrorMessage from './ErrorMessage';
 import Loading from './Loading';
 import ButtonLogout from './ButtonLogout';
-import ButtonCopy from './ButtonCopy';
 import { FileNode, FileDetail } from '../utils/types';
 import { fetchRepoTree } from '../utils/apiUtils';
 import { generateTextTree } from '../utils/treeUtils';
@@ -19,13 +16,15 @@ const NavBar: React.FC = () => {
   const [repoUrl, setRepoUrl] = useState('');
   const [branches, setBranches] = useState<string[]>([]);
   const [selectedBranch, setSelectedBranch] = useState('');
+  const [defaultBranch, setDefaultBranch] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState<boolean>(false);
   const { setFileDetails, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, setIsTextView, messages, fileDetails, textTree, setTextTree } = useResponse();
   const [aggregationSuccess, setAggregationSuccess] = useState(false);
 
   const fetchTree = async () => {
-    await fetchRepoTree(repoUrl, 'main', setTreeData, setBranches, setError);
+    setLoading(true);
+    await fetchRepoTree(repoUrl, '', setTreeData, setBranches, setSelectedBranch, setDefaultBranch, setError);
     setLoading(false);
   };
 
@@ -61,7 +60,7 @@ const NavBar: React.FC = () => {
 
   const fetchBranchTree = async (branch: string) => {
     console.log(branch);
-    await fetchRepoTree(repoUrl, branch, setTreeData, setBranches, setError);
+    await fetchRepoTree(repoUrl, branch, setTreeData, setBranches, setSelectedBranch, setDefaultBranch, setError);
     setLoading(false);
   };
 
@@ -74,9 +73,9 @@ const NavBar: React.FC = () => {
 
   useEffect(() => {
     if (branches.length > 0 && !selectedBranch) {
-      setSelectedBranch(branches[0]);
+      setSelectedBranch(defaultBranch);
     }
-  }, [branches]);
+  }, [branches, defaultBranch]);
 
   const handleTreeToggle = (node: FileNode) => {
     if (node.children) {
@@ -129,13 +128,6 @@ const NavBar: React.FC = () => {
         <div className="py-1 px-1 w-full overflow-y-scroll flex-grow" style={{ maxHeight: 'calc(50vh - 5rem)' }}>
           <div className="flex flex-col">
             <div className="text-blue-600 w-full">
-              <div className="flex flex-col p-2 justify-center items-center">
-                {isTextView && <ButtonCopy textToCopy={textTree} />}
-                <button onClick={handleAggregateAndCopy} className="mt-4 p-2 bg-green-500 text-white rounded">
-                  Aggregate and Copy
-                </button>
-                {aggregationSuccess && <p className="text-green-500 mt-2">Data copied to clipboard!</p>}
-              </div>
               {error && <ErrorMessage error={error} />}
               {isTextView ? (
                 <pre className="mt-4 p-4 border text-white border-gray-300 rounded">

@@ -9,6 +9,7 @@ type Data = {
   contributors?: { login: string; contributions: number }[];
   stars?: number;
   forks?: number;
+  defaultBranch?: string;
   error?: string;
 };
 
@@ -46,7 +47,7 @@ export default async function handler(
     // Get default branch
     const repoBranchResponse = await axios.get(repoApiUrl, { headers });
     const defaultBranch = repoBranchResponse.data.default_branch;
-
+    console.log("defaultBranch:", defaultBranch);
     const branchToUse = branch || defaultBranch;
 
     // Get branch information, branches, commits, contributors, and repo details in parallel
@@ -84,7 +85,7 @@ export default async function handler(
     // Get repository tree
     const treeResponse = await axios.get(`https://api.github.com/repos/${owner}/${repo}/git/trees/${treeSha}?recursive=1`, { headers });
     fs.writeFileSync('tree.json', JSON.stringify(treeResponse.data, null, 2));
-    
+
     res.status(200).json({
       tree: treeResponse.data,
       branches,
@@ -92,6 +93,7 @@ export default async function handler(
       contributors,
       stars: stargazers_count,
       forks: forks_count,
+      defaultBranch,
     });
   } catch (error: any) {
     res.status(500).json({ error: error.message });

@@ -63,11 +63,10 @@ export default function LeftPanel() {
 
   return (
     <div className="flex flex-col h-screen">
-      <div className="flex justify-between items-center p-4 bg-gray-800 text-white">
-        <h1 className="text-lg font-bold">Left Panel</h1>
+      <div className="flex justify-between items-center p-4 space-y-2  text-white">
         <button
           onClick={() => setShowChatPanel((prev) => !prev)}
-          className="bg-blue-500 p-2 rounded"
+          className=" border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded"
         >
           Switch to {showChatPanel ? 'File Details' : 'Chat'}
         </button>
@@ -97,7 +96,7 @@ export default function LeftPanel() {
               />
             ))
           ) : (
-            <div className="text-gray-500">Select a file to view its content</div>
+            <div className="text-white">Select a file in tree to view its content</div>
           )
         )}
       </div>

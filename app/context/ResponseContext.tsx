@@ -22,6 +22,12 @@ interface ResponseContextProps {
   setMessages: React.Dispatch<React.SetStateAction<string[]>>;
   textTree: string;
   setTextTree: React.Dispatch<React.SetStateAction<string>>;
+  projectName: string;
+  setProjectName: React.Dispatch<React.SetStateAction<string>>;
+  branchName: string;
+  setBranchName: React.Dispatch<React.SetStateAction<string>>;
+  treeFetched: boolean;
+  setTreeFetched: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -43,6 +49,9 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [fileDetails, setFileDetails] = useState<FileDetail[]>([]);
   const [messages, setMessages] = useState<string[]>([]);
   const [textTree, setTextTree] = useState<string>('');
+  const [projectName, setProjectName] = useState<string>('');
+  const [branchName, setBranchName] = useState<string>('');
+  const [treeFetched, setTreeFetched] = useState<boolean>(false)
 
   return (
     <ResponseContext.Provider
@@ -63,6 +72,12 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setMessages,
         textTree,
         setTextTree,
+        projectName,
+        setProjectName,
+        branchName,
+        setBranchName,
+        treeFetched,
+        setTreeFetched
       }}
     >
       {children}

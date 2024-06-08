@@ -3,31 +3,33 @@ import { FileNode } from './types';
 import { buildTree } from './treeUtils';
 import { FormEvent } from 'react';
 
+
 export const fetchRepoTree = async (
   repoUrl: string,
   branch: string,
   setTreeData: (data: FileNode | null) => void,
   setBranches: (branches: string[]) => void,
+  setSelectedBranch: (branch: string) => void,
+  setDefaultBranch: (branch: string) => void,
   setError: (error: string) => void
 ) => {
   try {
-    console.log("gwvgwgvwdgvewv"+branch)
     const response = await axios.post('/api/github/getRepoDetails', {
       repoUrl,
       branch,
     });
-    const { tree, branches, commits, contributors, stars, forks } = response.data;
+    const { tree, branches, commits, contributors, stars, forks, defaultBranch } = response.data;
 
     setTreeData(buildTree(tree.tree));
-    
     setBranches(branches);
+    setSelectedBranch(branch || defaultBranch); // Use branch from parameter or default branch
+    setDefaultBranch(defaultBranch); // Set default branch
 
     return { commits, contributors, stars, forks };
   } catch (error: any) {
     setError(error.message);
   }
 };
-
 
 // utils/apiUtils.ts
 

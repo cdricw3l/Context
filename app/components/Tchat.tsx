@@ -140,7 +140,7 @@ function Tchat({ messages, onClearMessages }: TchatProps) {
               <>
                 {messages.map((message, index) => renderMessage(message, index))}
               
-                <div className="flex flex-col items-center   py-2">
+                <div className="flex flex-col items-center    py-2">
                   <button
                     type="button"
                     className="place-content-center  rounded-sm hover:bg-slate-400 hover:text-slate-500 flex items-center mb-2"
