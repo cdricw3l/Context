@@ -7,8 +7,8 @@ import Tchat from './Tchat';
 import Sprech from './Sprech';
 
 export default function LeftPanel() {
+  const { fileDetails, setFileDetails, selectedView, setSelectedView } = useResponse();
   const [isMinimizedView, setIsMinimizedView] = useState(false);
-  const { fileDetails, setFileDetails } = useResponse();
   const [showChatPanel, setShowChatPanel] = useState(false);
   const [messages, setMessages] = useState<string[]>([]);
   const [currentMessage, setCurrentMessage] = useState<string>('');
@@ -63,14 +63,36 @@ export default function LeftPanel() {
 
   return (
     <div className="flex flex-col h-screen">
-      <div className="flex justify-between items-center p-4 space-y-2  text-white">
+      <div className="flex justify-between items-center p-4 space-y-2 text-white">
         <button
           onClick={() => setShowChatPanel((prev) => !prev)}
-          className=" border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded"
+          className="border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded"
         >
           Switch to {showChatPanel ? 'File Details' : 'Chat'}
         </button>
       </div>
+      {!showChatPanel && (
+        <div className="flex flex-row justify-around p-4">
+          <button
+            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'import' ? 'bg-blue-700' : ''}`}
+            onClick={() => setSelectedView('import')}
+          >
+            Import
+          </button>
+          <button
+            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'css' ? 'bg-blue-700' : ''}`}
+            onClick={() => setSelectedView('css')}
+          >
+            CSS
+          </button>
+          <button
+            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'all' ? 'bg-blue-700' : ''}`}
+            onClick={() => setSelectedView('all')}
+          >
+            All
+          </button>
+        </div>
+      )}
       <div className="flex-grow overflow-y-auto p-4">
         {showChatPanel ? (
           <div className="flex flex-col h-full p-6 max-h-screen">
@@ -93,10 +115,11 @@ export default function LeftPanel() {
                 onRemove={() => handleRemoveFile(index)}
                 onCopy={() => handleCopyFile(fileDetail.fileContent, isMinimizedView)}
                 setIsMinimizedView={setIsMinimizedView}
+                fileDetail={fileDetail.fileDetail} // Passer fileDetail ici
               />
             ))
           ) : (
-            <div className="text-white">Select a file in to view its content</div>
+            <div className="text-white">Select a file to view its details.</div>
           )
         )}
       </div>

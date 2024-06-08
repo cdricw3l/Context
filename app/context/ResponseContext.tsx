@@ -28,8 +28,8 @@ interface ResponseContextProps {
   setBranchName: React.Dispatch<React.SetStateAction<string>>;
   treeFetched: boolean;
   setTreeFetched: React.Dispatch<React.SetStateAction<boolean>>;
-  isMinimizedView: boolean;
-  setIsMinimizedView: React.Dispatch<React.SetStateAction<boolean>>;
+  selectedView: 'all' | 'import' | 'css' | 'export';
+  setSelectedView: React.Dispatch<React.SetStateAction<'all' | 'import' | 'css'| 'export'>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -54,7 +54,7 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [projectName, setProjectName] = useState<string>('');
   const [branchName, setBranchName] = useState<string>('');
   const [treeFetched, setTreeFetched] = useState<boolean>(false);
-  const [isMinimizedView, setIsMinimizedView] = useState<boolean>(false);
+  const [selectedView, setSelectedView] = useState<'all' | 'import' | 'css'| 'export'>('all');
 
   return (
     <ResponseContext.Provider
@@ -81,8 +81,8 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setBranchName,
         treeFetched,
         setTreeFetched,
-        isMinimizedView,
-        setIsMinimizedView
+        selectedView,
+        setSelectedView
       }}
     >
       {children}

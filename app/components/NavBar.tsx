@@ -40,15 +40,20 @@ const NavBar: React.FC = () => {
         body: JSON.stringify({ repoUrl, sha, extend }),
       });
       const data = await res.json();
-
+      console.log("Data: ", data);
       if (res.ok) {
         const newFileDetail: FileDetail = {
           fileName,
           fileContent: data.isBinary ? "Binary file cannot be displayed" : data.content,
           fileContentMinimized: data.isBinary ? "Binary file cannot be displayed" : data.content.replace(/\n/g, ' '),
           isBinary: data.isBinary,
+          fileDetail: {
+            imports: data.imports,
+            exports: data.exports,
+            css: data.css,
+          }
         };
-
+  
         setFileDetails((prevDetails) => [...prevDetails, newFileDetail]);
       } else {
         setError(data.message);

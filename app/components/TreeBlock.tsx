@@ -63,7 +63,7 @@ const TreeBlock: React.FC<TreeBlockProps> = ({
         </button>
         <button 
           onClick={handleAggregateAndCopy} 
-          className="p-2 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 hover:bg-blue-600 text-white rounded"
+          className="p-2 bg-gradient-to-r from-blue-500 to-transparent bg-red-500 hover:bg-blue-600 text-white rounded"
         >
           Aggregate and Copy
         </button>

@@ -30,6 +30,7 @@ export interface FileDetail {
   fileContent: string;
   fileContentMinimized: string;
   isBinary: boolean;
+  fileDetail: any;
 }
 
 
