@@ -96,7 +96,7 @@ export default function LeftPanel() {
               />
             ))
           ) : (
-            <div className="text-white">Select a file in tree to view its content</div>
+            <div className="text-white">Select a file in to view its content</div>
           )
         )}
       </div>

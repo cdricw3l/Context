@@ -6,7 +6,7 @@ import { FileDetail } from '../utils/types';
 import TreeBlock from './TreeBlock';
 
 export default function RightPanel() {
-  const { messages, setMessages, fileDetails, setFileDetails, treeData, textTree, projectName, branchName } = useResponse();
+  const { messages, setMessages, fileDetails, setFileDetails, treeData, textTree, projectName, branchName, isMinimizedView } = useResponse();
   const [messageText, setMessageText] = useState('');
   const [aggregationSuccess, setAggregationSuccess] = useState(false);
   const [items, setItems] = useState<(string | FileDetail)[]>(['TREE']);
@@ -61,13 +61,20 @@ export default function RightPanel() {
   };
 
   const handleAggregateAndCopy = () => {
+    console.log(isMinimizedView);
     const aggregatedData = `
       Tree Structure:
       ${textTree}
     File Details and Messages:
-      ${items.map(item => typeof item === 'string'
-        ? `Message: ${item}`
-        : `File: ${item.fileName}\nContent:\n${item.fileContent.substring(0, 500)}`).join('\n\n')}
+      ${items.map(item => {
+        if (typeof item === 'string') {
+          return `Message: ${item}`;
+        } else {
+          
+          const fileContent = isMinimizedView ? item.fileContentMinimized : item.fileContent;
+          return `File: ${item.fileName}\nContent:\n${fileContent.substring(0, 500)}`;
+        }
+      }).join('\n\n')}
     `;
 
     navigator.clipboard.writeText(aggregatedData)

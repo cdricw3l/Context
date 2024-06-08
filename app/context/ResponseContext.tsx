@@ -28,6 +28,8 @@ interface ResponseContextProps {
   setBranchName: React.Dispatch<React.SetStateAction<string>>;
   treeFetched: boolean;
   setTreeFetched: React.Dispatch<React.SetStateAction<boolean>>;
+  isMinimizedView: boolean;
+  setIsMinimizedView: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -51,7 +53,8 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [textTree, setTextTree] = useState<string>('');
   const [projectName, setProjectName] = useState<string>('');
   const [branchName, setBranchName] = useState<string>('');
-  const [treeFetched, setTreeFetched] = useState<boolean>(false)
+  const [treeFetched, setTreeFetched] = useState<boolean>(false);
+  const [isMinimizedView, setIsMinimizedView] = useState<boolean>(false);
 
   return (
     <ResponseContext.Provider
@@ -77,7 +80,9 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         branchName,
         setBranchName,
         treeFetched,
-        setTreeFetched
+        setTreeFetched,
+        isMinimizedView,
+        setIsMinimizedView
       }}
     >
       {children}

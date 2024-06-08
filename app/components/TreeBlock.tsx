@@ -41,13 +41,16 @@ const TreeBlock: React.FC<TreeBlockProps> = ({
         <h2 className="text-2xl font-bold">↓</h2>
         <h2 className="text-2xl font-bold">↓</h2>
       </div>
-      <div className="mt-4 text-center flex flex-wrap justify-center text-xs space-x-2">
-        <p><strong>Project Name:</strong> {projectName}</p>
-        <p><strong>Branch:</strong> {branchName}</p>
-        <p><strong>Total Messages:</strong> {totalMessages}</p>
-        <p><strong>Total Files Selected:</strong> {totalFiles}</p>
-        <p><strong>Total Tree Size:</strong> {totalTreeSize - 4} characters</p>
-        <p><strong>Total Size:</strong> {totalSize - 4} characters</p>
+      <div className="mt-4 text-center">
+        <h3 className="text-sm font-semibold mb-2">Project Overview</h3>
+        <div className="text-xs grid grid-cols-2 gap-x-4">
+          <p>Project Name: {projectName}</p>
+          <p>Branch: {branchName}</p>
+          <p>Total Messages: {totalMessages}</p>
+          <p>Total Files: {totalFiles}</p>
+          <p>Total Tree Size: {totalTreeSize} characters</p>
+          <p>Total Size: {totalSize} characters</p>
+        </div>
       </div>
       <div className="flex flex-row space-x-4 mt-4">
         <button 
@@ -65,7 +68,7 @@ const TreeBlock: React.FC<TreeBlockProps> = ({
           Aggregate and Copy
         </button>
       </div>
-      {copySuccess && <p className="text-green-500 mt-2 text-sm">Data copied to clipboard!</p>}
+      {copySuccess && <p className="text-green-500 mt-2">Data copied to clipboard!</p>}
     </div>
   );
 };
