@@ -72,25 +72,26 @@ export default function LeftPanel() {
         </button>
       </div>
       {!showChatPanel && (
-        <div className="flex flex-row justify-around p-4">
+        <div className="flex flex-row space-x-2 p-4">
           <button
-            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'import' ? 'bg-blue-700' : ''}`}
+            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'all' ? 'border-red-500' : ''}`}
+            onClick={() => setSelectedView('all')}
+          >
+            All
+          </button>
+          <button
+            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'import' ? 'border-red-500' : ''}`}
             onClick={() => setSelectedView('import')}
           >
             Import
           </button>
           <button
-            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'css' ? 'bg-blue-700' : ''}`}
+            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'css' ? 'border-red-500' : ''}`}
             onClick={() => setSelectedView('css')}
           >
             CSS
           </button>
-          <button
-            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'all' ? 'bg-blue-700' : ''}`}
-            onClick={() => setSelectedView('all')}
-          >
-            All
-          </button>
+          
         </div>
       )}
       <div className="flex-grow overflow-y-auto p-4">
@@ -116,6 +117,7 @@ export default function LeftPanel() {
                 onCopy={() => handleCopyFile(fileDetail.fileContent, isMinimizedView)}
                 setIsMinimizedView={setIsMinimizedView}
                 fileDetail={fileDetail.fileDetail} // Passer fileDetail ici
+                extension={fileDetail.extension}
               />
             ))
           ) : (

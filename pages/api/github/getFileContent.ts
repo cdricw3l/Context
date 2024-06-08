@@ -49,29 +49,18 @@ export default async function handler(
     console.log("Blob URL: ", blobUrl);
     const blobResponse = await axios.get(blobUrl, { headers });
     const contentBase64 = blobResponse.data.content;
-
-    // Essayer de décoder le contenu en texte
-    let content;
+    const decode = atob(contentBase64);
+  
+    // E  ssayer de décoder le contenu en texte
+    const content = decode;
     let isBinary = false;
-    try {
-      content = Buffer.from(contentBase64, 'base64').toString('utf-8');
-      // Vérifier si le contenu contient des caractères non imprimables
-      if (/[\x00-\x08\x0E-\x1F\x80-\xFF]/.test(content)) {
-        isBinary = true;
-      }
-    } catch {
-      isBinary = true;
-    }
-
-    if (isBinary) {
-      content = contentBase64;
-    }
+   
 
     let fileDetail;
     try {
       //console.log("Content: ", content);
       console.log("Extend: ", extend);
-      fileDetail = extractFileData(content, extend);
+      fileDetail = extractFileData(decode, extend);
       console.log("File detail: ", fileDetail);
     } catch (error) {
       console.log("Error: ", error);

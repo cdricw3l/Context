@@ -16,7 +16,10 @@ interface FileContentDetailsProps {
     imports: string[];
     exports: string[];
     css: string[];
+    
   };
+  extension: string;
+  
 }
 
 const FileContentDetails: React.FC<FileContentDetailsProps> = ({
@@ -28,6 +31,8 @@ const FileContentDetails: React.FC<FileContentDetailsProps> = ({
   onRemove,
   onCopy,
   fileDetail,
+  extension,
+  
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const { selectedView } = useResponse();
@@ -45,14 +50,29 @@ const FileContentDetails: React.FC<FileContentDetailsProps> = ({
     setIsMinimizedView(!isMinimizedView);
   };
 
-  let contentToDisplay;
-  if (selectedView === 'import') {
-    contentToDisplay = fileDetail.exports.join('\n');
-  } else if (selectedView === 'css') {
-    contentToDisplay = fileDetail.css.join('\n');
-  } else {
+   let contentToDisplay: string | undefined;
+   console.log("extens0000ion "+ extension)
+  
+   if(extension === '.ts' || extension === '.js' || extension === '.tsx' || extension === '.jsx' || extension === '.css'){
+    if (selectedView === 'import' && fileDetail) {
+    
+      contentToDisplay = fileDetail?.imports.join('\n');
+    } else if (selectedView === 'css') {
+      if(fileDetail?.css.length > 0){
+        contentToDisplay = fileDetail?.css.join('\n');
+      }else{
+        contentToDisplay = 'No CSS DATA';
+      }
+      
+    } else {
+      contentToDisplay = isMinimizedView ? fileContentMinimized : fileContent;
+    }
+
+   } else {
+    
     contentToDisplay = isMinimizedView ? fileContentMinimized : fileContent;
-  }
+
+   }
 
   return (
     <div className="p-4 shadow-2xl rounded-xl text-gray-800 mb-4">

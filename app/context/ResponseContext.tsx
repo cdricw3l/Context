@@ -28,8 +28,10 @@ interface ResponseContextProps {
   setBranchName: React.Dispatch<React.SetStateAction<string>>;
   treeFetched: boolean;
   setTreeFetched: React.Dispatch<React.SetStateAction<boolean>>;
-  selectedView: 'all' | 'import' | 'css' | 'export';
+  selectedView: 'all' | 'import' | 'css' | 'export' ;
   setSelectedView: React.Dispatch<React.SetStateAction<'all' | 'import' | 'css'| 'export'>>;
+  extension: string;
+  setExtension: React.Dispatch<React.SetStateAction<string>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -55,6 +57,7 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [branchName, setBranchName] = useState<string>('');
   const [treeFetched, setTreeFetched] = useState<boolean>(false);
   const [selectedView, setSelectedView] = useState<'all' | 'import' | 'css'| 'export'>('all');
+  const [extension,setExtension] = useState<string>('');
 
   return (
     <ResponseContext.Provider
@@ -82,7 +85,9 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         treeFetched,
         setTreeFetched,
         selectedView,
-        setSelectedView
+        setSelectedView,
+        extension,
+        setExtension
       }}
     >
       {children}

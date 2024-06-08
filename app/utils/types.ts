@@ -31,6 +31,7 @@ export interface FileDetail {
   fileContentMinimized: string;
   isBinary: boolean;
   fileDetail: any;
+  extension: string;
 }
 
 

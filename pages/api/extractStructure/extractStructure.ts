@@ -5,7 +5,7 @@ import { File } from '../../../app/utils/types';
 
 export const extractFileData = (fileContent: string, extend: string): File | undefined => {
   console.log("Extracting file data from content");
-
+  console.log("extensiom" + extend)
   if (extend === '.ts' || extend === '.js' || extend === '.tsx' || extend === '.jsx' || extend === '.css') {
     const { importPattern, exportPattern, cssPattern } = getRegexPatterns(extend);
 
