@@ -19,13 +19,22 @@ export async function getUserFromDb(email: string, password: string) {
 }
 
 export async function createUser(email: string, password: string) {
-  const hashedPassword = saltAndHashPassword(password);
-  const user = await prisma.user.create({
-    data: {
-      email,
-      password: hashedPassword,
-    },
-  });
+  try {
+    console.log("Attempting to create user with email:", email);
 
-  return user;
+    const hashedPassword = saltAndHashPassword(password);
+
+    const user = await prisma.user.create({
+      data: {
+        email,
+        password: hashedPassword,
+      },
+    });
+
+    console.log("User created successfully:", user);
+    return user;
+  } catch (error) {
+    console.error("Error creating user:", error);
+    throw error; // Relancer l'erreur pour une gestion ultérieure
+  }
 }
