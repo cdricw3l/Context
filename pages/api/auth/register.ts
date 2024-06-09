@@ -7,7 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   console.log("Starting register")
   if (req.method === 'POST') {
     const { email, password } = req.body;
-    console.log(email,  "password");
+    console.log(email,  password);
     try {
       const user = await createUser(email, password);
       res.status(201).json(user);

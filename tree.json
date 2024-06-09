@@ -1,6 +1,6 @@
 {
-  "sha": "ff6f810329da054aa44eec4ad4f7faf5fcfaf837",
-  "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/ff6f810329da054aa44eec4ad4f7faf5fcfaf837",
+  "sha": "d1f4f7c7389c63c75c3fc87db487d62238c64666",
+  "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/d1f4f7c7389c63c75c3fc87db487d62238c64666",
   "tree": [
     {
       "path": ".eslintrc.json",
@@ -22,9 +22,9 @@
       "path": "README.md",
       "mode": "100644",
       "type": "blob",
-      "sha": "29dd6f5a5f2db947f98ef0b08fafa937d563dc39",
-      "size": 4441,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/29dd6f5a5f2db947f98ef0b08fafa937d563dc39"
+      "sha": "a6778699b54ef80a131398eb250418993fb2d9c3",
+      "size": 5310,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a6778699b54ef80a131398eb250418993fb2d9c3"
     },
     {
       "path": "Untitled-1.sh",
@@ -38,15 +38,15 @@
       "path": "app",
       "mode": "040000",
       "type": "tree",
-      "sha": "1bcc812cc48f588a7685c5c8c75bc3bdbc6f6571",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/1bcc812cc48f588a7685c5c8c75bc3bdbc6f6571"
+      "sha": "3bf089ca864ae575db8529fb390ca64591f4c673",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/3bf089ca864ae575db8529fb390ca64591f4c673"
     },
     {
       "path": "app/components",
       "mode": "040000",
       "type": "tree",
-      "sha": "98fbcec0f3eb97676241c13a7c61692b4c6ce9d4",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/98fbcec0f3eb97676241c13a7c61692b4c6ce9d4"
+      "sha": "0307b8a368d226568f2fb002c9e2710c683ae66a",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/0307b8a368d226568f2fb002c9e2710c683ae66a"
     },
     {
       "path": "app/components/ButtonCopy.tsx",
@@ -76,9 +76,9 @@
       "path": "app/components/FileContentDetails.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "b901f505087a76bbcab145a14c0605cae7a22819",
-      "size": 6776,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b901f505087a76bbcab145a14c0605cae7a22819"
+      "sha": "7ffbf1de9e7dd96c3bd638d5dc519fbcb612af28",
+      "size": 6788,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7ffbf1de9e7dd96c3bd638d5dc519fbcb612af28"
     },
     {
       "path": "app/components/FileDetails.tsx",
@@ -124,9 +124,9 @@
       "path": "app/components/Loading.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "e771fd997f6d5e2e151adb789a0a8daef8a6cc59",
-      "size": 384,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e771fd997f6d5e2e151adb789a0a8daef8a6cc59"
+      "sha": "ddc06b34f2815082f2c8e2dfcf6bc7e3668995b0",
+      "size": 396,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ddc06b34f2815082f2c8e2dfcf6bc7e3668995b0"
     },
     {
       "path": "app/components/Modal.tsx",
@@ -212,9 +212,9 @@
       "path": "app/components/SignIn.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "94a1a49e12355654e99296ba146213ecbc6aa2e0",
-      "size": 987,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/94a1a49e12355654e99296ba146213ecbc6aa2e0"
+      "sha": "e5ddc93896b4ef9599ec061e6970d6cd4c704a47",
+      "size": 2509,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e5ddc93896b4ef9599ec061e6970d6cd4c704a47"
     },
     {
       "path": "app/components/Sprech.tsx",
@@ -337,17 +337,17 @@
       "path": "app/layout.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "7ac6ac76f8a1c76dc506bf40c2af20793a407015",
-      "size": 1271,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7ac6ac76f8a1c76dc506bf40c2af20793a407015"
+      "sha": "ad373e32c68446eaa8a26d1e6c0c64dfcafff9a6",
+      "size": 1665,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ad373e32c68446eaa8a26d1e6c0c64dfcafff9a6"
     },
     {
       "path": "app/page.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "67aba89af2dbd2799aaeb1ca6a963965583ccb53",
-      "size": 680,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/67aba89af2dbd2799aaeb1ca6a963965583ccb53"
+      "sha": "83163a4af6b1c6788664a5fb90926cef0aff23be",
+      "size": 682,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/83163a4af6b1c6788664a5fb90926cef0aff23be"
     },
     {
       "path": "app/posts",
@@ -363,6 +363,21 @@
       "sha": "ad9ff0ae3b97475a3210abebd71d82fa353de430",
       "size": 1186,
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ad9ff0ae3b97475a3210abebd71d82fa353de430"
+    },
+    {
+      "path": "app/sign",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f6c1d894c90ef7d46c7053da99d82e547386197",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/6f6c1d894c90ef7d46c7053da99d82e547386197"
+    },
+    {
+      "path": "app/sign/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6825b87428a3548a9c6d4b19d16e3c9687b43a79",
+      "size": 1070,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6825b87428a3548a9c6d4b19d16e3c9687b43a79"
     },
     {
       "path": "app/struc",
@@ -383,8 +398,8 @@
       "path": "app/utils",
       "mode": "040000",
       "type": "tree",
-      "sha": "9a8b282dd96a69d68f1a24f5b1ac7fdc32bfc5fb",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/9a8b282dd96a69d68f1a24f5b1ac7fdc32bfc5fb"
+      "sha": "857e6b60d32c0d10e434d6222ed54e1670f64d3e",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/857e6b60d32c0d10e434d6222ed54e1670f64d3e"
     },
     {
       "path": "app/utils/aggregateData.ts",
@@ -422,17 +437,17 @@
       "path": "app/utils/db.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "605fcc568fbb39952af968b3fbd355a1d745a7d9",
-      "size": 736,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/605fcc568fbb39952af968b3fbd355a1d745a7d9"
+      "sha": "0bc2f650ff42fb092a1c725c025f57c4f7193927",
+      "size": 1021,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0bc2f650ff42fb092a1c725c025f57c4f7193927"
     },
     {
       "path": "app/utils/password.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "fbff62f8a83d893ce58b1d3e72b5c262072e812d",
-      "size": 630,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/fbff62f8a83d893ce58b1d3e72b5c262072e812d"
+      "sha": "5de34dfa190f9d9e49b43a7015e23fe5c94b7f78",
+      "size": 392,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5de34dfa190f9d9e49b43a7015e23fe5c94b7f78"
     },
     {
       "path": "app/utils/treeUtils.ts",
@@ -485,9 +500,17 @@
       "path": "middleware.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "7bd068fa9f222169f73a703c2933d11e3216b972",
-      "size": 1110,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7bd068fa9f222169f73a703c2933d11e3216b972"
+      "sha": "931c3c2d0a67e982421adc7c27aa9dd8beba8075",
+      "size": 1235,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/931c3c2d0a67e982421adc7c27aa9dd8beba8075"
+    },
+    {
+      "path": "next-auth.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e235216a92329a4cbb0297560efb12737cfad5f",
+      "size": 310,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1e235216a92329a4cbb0297560efb12737cfad5f"
     },
     {
       "path": "next.config.js",
@@ -501,23 +524,23 @@
       "path": "package.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "90948be6ae830817e7bc6f53a7569f50eacbe612",
-      "size": 1415,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/90948be6ae830817e7bc6f53a7569f50eacbe612"
+      "sha": "c8ba0af50616c38d2b335bad726f5e1d0d6c184c",
+      "size": 1439,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c8ba0af50616c38d2b335bad726f5e1d0d6c184c"
     },
     {
       "path": "pages",
       "mode": "040000",
       "type": "tree",
-      "sha": "be3886bdcf707c56ada705a7b97bac9ede0697c3",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/be3886bdcf707c56ada705a7b97bac9ede0697c3"
+      "sha": "90286d1584bfd47825daa8d36fe0588f32ee2363",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/90286d1584bfd47825daa8d36fe0588f32ee2363"
     },
     {
       "path": "pages/api",
       "mode": "040000",
       "type": "tree",
-      "sha": "83577a43aa465cb28fee22c657e0ac536773d0bf",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/83577a43aa465cb28fee22c657e0ac536773d0bf"
+      "sha": "e73a8e230b629d22133c043a55f286155d67f786",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/e73a8e230b629d22133c043a55f286155d67f786"
     },
     {
       "path": "pages/api/Chat",
@@ -538,24 +561,24 @@
       "path": "pages/api/auth",
       "mode": "040000",
       "type": "tree",
-      "sha": "59bdbce0e44c62747bd35e8c356857ac0fe892da",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/59bdbce0e44c62747bd35e8c356857ac0fe892da"
+      "sha": "11e11c6c10c3d425d2c7c7a4cb77fdfb30849cd4",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/11e11c6c10c3d425d2c7c7a4cb77fdfb30849cd4"
     },
     {
       "path": "pages/api/auth/[...nextauth].ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "ae06f013af39c858652879a5d33d5031a5d7fdb6",
-      "size": 1280,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ae06f013af39c858652879a5d33d5031a5d7fdb6"
+      "sha": "18cb176d4e926f4258437891f7eedfc9a63bed7d",
+      "size": 1400,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/18cb176d4e926f4258437891f7eedfc9a63bed7d"
     },
     {
       "path": "pages/api/auth/register.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "45d72394062234ffec4a75725cae0412876db38f",
-      "size": 600,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/45d72394062234ffec4a75725cae0412876db38f"
+      "sha": "8b9a9ed29d0b04fda5a930ce72632be38c0971cb",
+      "size": 656,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8b9a9ed29d0b04fda5a930ce72632be38c0971cb"
     },
     {
       "path": "pages/api/back",
@@ -680,19 +703,27 @@
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4302c11a301e92baaae0180f4faf651d4fb6fa6a"
     },
     {
-      "path": "pages/sign",
+      "path": "pages/auth",
       "mode": "040000",
       "type": "tree",
-      "sha": "f47f8b679ccac69e6d03781c5d84e6e89a1bb9d9",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/f47f8b679ccac69e6d03781c5d84e6e89a1bb9d9"
+      "sha": "ba32f01732d685f51be54fcf26fd47b2d6b0f38a",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/ba32f01732d685f51be54fcf26fd47b2d6b0f38a"
     },
     {
-      "path": "pages/sign/signIn.tsx",
+      "path": "pages/auth/sign-in.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "77ba7cec57b27cda1360b074d6e516d5508ad967",
-      "size": 2495,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/77ba7cec57b27cda1360b074d6e516d5508ad967"
+      "sha": "54b2d3488f21686a6b3cb47c4e0faccd0c04b9d7",
+      "size": 1084,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/54b2d3488f21686a6b3cb47c4e0faccd0c04b9d7"
+    },
+    {
+      "path": "pages/auth/sign-up.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "401d19ccd4087a472089b5bb8aa694d8659904f8",
+      "size": 1290,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/401d19ccd4087a472089b5bb8aa694d8659904f8"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -805,9 +836,9 @@
       "path": "tree.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "0bd0b8ab664e06fdf347de18aa040ce99112483e",
-      "size": 109523,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0bd0b8ab664e06fdf347de18aa040ce99112483e"
+      "sha": "0183173a1807d1a04e73a1bde4f052a1383c3f61",
+      "size": 30908,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0183173a1807d1a04e73a1bde4f052a1383c3f61"
     },
     {
       "path": "tsconfig.json",
@@ -821,9 +852,9 @@
       "path": "yarn.lock",
       "mode": "100644",
       "type": "blob",
-      "sha": "142716e58c2896e48910723a500db29d993c4a04",
-      "size": 385426,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/142716e58c2896e48910723a500db29d993c4a04"
+      "sha": "e87e502b7f3e4d364aee838ea0fc17b7d849dc32",
+      "size": 395053,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e87e502b7f3e4d364aee838ea0fc17b7d849dc32"
     }
   ],
   "truncated": false
