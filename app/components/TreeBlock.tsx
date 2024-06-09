@@ -48,8 +48,8 @@ const TreeBlock: React.FC<TreeBlockProps> = ({
           <p>Branch: {branchName}</p>
           <p>Total Messages: {totalMessages}</p>
           <p>Total Files: {totalFiles}</p>
-          <p>Total Tree Size: {totalTreeSize} characters</p>
-          <p>Total Size: {totalSize} characters</p>
+          <p>Total Tree Size: {totalTreeSize-4} characters</p>
+          <p>Total Size: {totalSize-4} characters</p>
         </div>
       </div>
       <div className="flex flex-row space-x-4 mt-4">

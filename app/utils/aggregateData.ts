@@ -14,9 +14,16 @@ export const aggregateData = (
     if (item.extension === '.ts' || item.extension === '.js' || item.extension === '.tsx' || item.extension === '.jsx' || item.extension === '.css') {
       const selectedView = selectedViews[item.fileName] || 'all';
       if (selectedView === 'Import / Export' && item.fileDetail) {
-        contentToDisplay = item.fileDetail.imports.join('\n') + '\n' + item.fileDetail.exports.join('\n');
+        isMinimizedView ? contentToDisplay = (item.fileDetail.imports.join('\n') + '\n' + item.fileDetail.exports.join('\n')).replace(/\n/g, ' ') : contentToDisplay = item.fileDetail.imports.join('\n') + '\n' + item.fileDetail.exports.join('\n');
+        
       } else if (selectedView === 'css') {
-        contentToDisplay = item.fileDetail.css.length > 0 ? item.fileDetail.css.join('\n') : 'No CSS DATA';
+          if( isMinimizedView){
+            contentToDisplay = item.fileDetail.css.length > 0 ? item.fileDetail.css.join('\n').replace(/\n/g, ' ') : 'No CSS DATA';
+
+          }else{
+            contentToDisplay = item.fileDetail.css.length > 0 ? item.fileDetail.css.join('\n') : 'No CSS DATA';
+          }
+        
       } else {
         contentToDisplay = isMinimizedView ? item.fileContentMinimized : item.fileContent;
       }

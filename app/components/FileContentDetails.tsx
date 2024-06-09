@@ -56,10 +56,12 @@ const FileContentDetails: React.FC<FileContentDetailsProps> = ({
 
   if (extension === '.ts' || extension === '.js' || extension === '.tsx' || extension === '.jsx' || extension === '.css') {
     if (selectedView === 'Import / Export' && fileDetail) {
-      contentToDisplay = fileDetail.imports.join('\n') + '\n' + fileDetail.exports.join('\n');
+      isMinimizedView ? contentToDisplay = (fileDetail.imports.join('\n') + '\n' + fileDetail.exports.join('\n')).replace(/\n/g, ' ') : contentToDisplay = fileDetail.imports.join('\n') + '\n' + fileDetail.exports.join('\n')
+      
     } else if (selectedView === 'css') {
       if (fileDetail?.css.length > 0) {
-        contentToDisplay = fileDetail?.css.join('\n');
+        isMinimizedView ? contentToDisplay = fileDetail?.css.join('\n').replace(/\n/g, ' ') : contentToDisplay = fileDetail?.css.join('\n')
+        
       } else {
         contentToDisplay = 'No CSS DATA';
       }
@@ -95,19 +97,19 @@ const FileContentDetails: React.FC<FileContentDetailsProps> = ({
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
           </button>
-          {selectedView === 'all' ?
-            <button onClick={handleToggleView} className="px-2 py-1 rounded-sm">
-              {isMinimizedView ? (
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6 text-green-500">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 7.756a4.5 4.5 0 1 0 0 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                </svg>
-              ) : (
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6 0">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                </svg>
-              )}
-            </button>
-            : null}
+          
+          <button onClick={handleToggleView} className="px-2 py-1 rounded-sm">
+            {isMinimizedView ? (
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 7.756a4.5 4.5 0 1 0 0 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6 0">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+            )}
+          </button>
+            
         </div>
       </div>
       <div className="flex space-x-4 mb-4">
