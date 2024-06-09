@@ -1,4 +1,5 @@
-// pages/api/auth/register.ts
+'use client';
+
 import { NextApiRequest, NextApiResponse } from 'next';
 import { createUser } from '../../../app/utils/db';
 

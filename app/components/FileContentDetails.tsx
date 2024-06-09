@@ -1,5 +1,5 @@
 // app/components/FileContentDetails.tsx
-
+'use client'
 import React, { useState, useEffect } from 'react';
 import { useResponse } from '../context/ResponseContext';
 import Modal from './Modal';

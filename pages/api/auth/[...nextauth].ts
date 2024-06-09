@@ -1,27 +1,26 @@
+// pages/api/auth/[...nextauth].ts
+
 import NextAuth from "next-auth";
-import Credentials from "next-auth/providers/credentials";
+import CredentialsProvider from "next-auth/providers/credentials";
 import { getUserFromDb } from "../../../app/utils/db";
 import { signInSchema } from "../../../lib/zod";
 import { ZodError } from "zod";
-// Your own logic for dealing with plaintext password strings; be careful!
-import { saltAndHashPassword } from "../../../app/utils/password";
+import { verifyPassword } from "../../../app/utils/password";
 
-export const { handlers, signIn, signOut, auth } = NextAuth({
+export default NextAuth({
   providers: [
-    Credentials({
+    CredentialsProvider({
       credentials: {
         email: { label: "Email", type: "email" },
         password: { label: "Password", type: "password" },
       },
-      authorize: async (credentials, req) => {
+      authorize: async (credentials) => {
         try {
           const { email, password } = await signInSchema.parseAsync(credentials);
 
-          const pwHash = saltAndHashPassword(password);
-          const user = await getUserFromDb(email, pwHash);
-
-          if (!user) {
-            throw new Error("User not found.");
+          const user = await getUserFromDb(email,password);
+          if (!user || !verifyPassword(user.password, password)) {
+            throw new Error("Invalid email or password.");
           }
 
           return {
@@ -39,4 +38,25 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       },
     }),
   ],
+  session: {
+    strategy: "jwt",
+  },
+  jwt: {
+    maxAge: 60 * 60 * 24 * 30, // 30 jours
+  },
+  callbacks: {
+    async session({ session, token }) {
+      if (token) {
+        session.user.id = token.sub as string;
+      }
+      return session;
+    },
+    async jwt({ token, user }) {
+      if (user) {
+        token.sub = user.id;
+      }
+      return token;
+    },
+  },
+  secret: process.env.NEXTAUTH_SECRET,
 });

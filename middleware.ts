@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { withAuth } from "next-auth/middleware";
 
 const allowedOrigins = ['http://localhost:8000','http://localhost:3000', 'https://your-frontend-domain.com'];
 
@@ -34,6 +35,11 @@ export function middleware(request: NextRequest) {
   return response;
 }
 
-export const config = {
-  matcher: '/api/:path*',
-};
+
+export default withAuth({
+  pages: {
+    signIn: '/auth/sign-in',
+  },
+});
+
+export const config = { matcher: ['/app/:path*'] };
