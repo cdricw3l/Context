@@ -4,9 +4,10 @@ import React, { useState, useEffect } from 'react';
 import { useResponse } from '../context/ResponseContext';
 import { FileDetail } from '../utils/types';
 import TreeBlock from './TreeBlock';
+import { aggregateData } from '../utils/aggregateData';
 
 export default function RightPanel() {
-  const { messages, setMessages, fileDetails, setFileDetails, treeData, textTree, projectName, branchName, isMinimizedView } = useResponse();
+  const { messages, setMessages, fileDetails, setFileDetails, treeData, textTree, projectName, branchName, isMinimizedView, selectedViews } = useResponse();
   const [messageText, setMessageText] = useState('');
   const [aggregationSuccess, setAggregationSuccess] = useState(false);
   const [items, setItems] = useState<(string | FileDetail)[]>(['TREE']);
@@ -61,28 +62,15 @@ export default function RightPanel() {
   };
 
   const handleAggregateAndCopy = () => {
-    console.log(isMinimizedView);
-    const aggregatedData = `
-      Tree Structure:
-      ${textTree}
-    File Details and Messages:
-      ${items.map(item => {
-        if (typeof item === 'string') {
-          return `Message: ${item}`;
-        } else {
-          
-          const fileContent = isMinimizedView ? item.fileContentMinimized : item.fileContent;
-          return `File: ${item.fileName}\nContent:\n${fileContent.substring(0, 500)}`;
-        }
-      }).join('\n\n')}
-    `;
-
+    const aggregatedData = aggregateData(items, textTree, isMinimizedView, selectedViews);
+  
     navigator.clipboard.writeText(aggregatedData)
       .then(() => {
         setAggregationSuccess(true);
       })
       .catch(() => setAggregationSuccess(false));
   };
+  
 
   const handleClearItems = () => {
     setItems(['TREE']);

@@ -2,8 +2,10 @@
 
 'use client';
 
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, Dispatch, SetStateAction } from 'react';
 import { FileNode, Directory, FileDetail } from '../utils/types';
+
+type SelectedView = 'all' | 'Import / Export' | 'css';
 
 interface ResponseContextProps {
   response: any;
@@ -28,10 +30,14 @@ interface ResponseContextProps {
   setBranchName: React.Dispatch<React.SetStateAction<string>>;
   treeFetched: boolean;
   setTreeFetched: React.Dispatch<React.SetStateAction<boolean>>;
-  selectedView: 'all' | 'import' | 'css' | 'export' ;
-  setSelectedView: React.Dispatch<React.SetStateAction<'all' | 'import' | 'css'| 'export'>>;
+  selectedViews: Record<string, SelectedView>;
+  setSelectedViews: Dispatch<SetStateAction<Record<string, SelectedView>>>;
   extension: string;
   setExtension: React.Dispatch<React.SetStateAction<string>>;
+  isMinimizedView: boolean;
+  setIsMinimizedView: React.Dispatch<React.SetStateAction<boolean>>;
+  aggregatedContent: Record<string, string>;
+  setAggregatedContent: React.Dispatch<React.SetStateAction<Record<string, string>>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -56,8 +62,10 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [projectName, setProjectName] = useState<string>('');
   const [branchName, setBranchName] = useState<string>('');
   const [treeFetched, setTreeFetched] = useState<boolean>(false);
-  const [selectedView, setSelectedView] = useState<'all' | 'import' | 'css'| 'export'>('all');
-  const [extension,setExtension] = useState<string>('');
+  const [selectedViews, setSelectedViews] = useState<Record<string, SelectedView>>({});
+  const [extension, setExtension] = useState<string>('');
+  const [isMinimizedView, setIsMinimizedView] = useState(false);
+  const [aggregatedContent, setAggregatedContent] = useState<Record<string, string>>({});
 
   return (
     <ResponseContext.Provider
@@ -84,10 +92,14 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setBranchName,
         treeFetched,
         setTreeFetched,
-        selectedView,
-        setSelectedView,
+        selectedViews,
+        setSelectedViews,
         extension,
-        setExtension
+        setExtension,
+        isMinimizedView,
+        setIsMinimizedView,
+        aggregatedContent,
+        setAggregatedContent,
       }}
     >
       {children}

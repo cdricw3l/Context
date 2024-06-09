@@ -1,5 +1,6 @@
 // app/components/LeftPanel.tsx
 
+
 import React, { useState } from 'react';
 import { useResponse } from '../context/ResponseContext';
 import FileContentDetails from './FileContentDetails';
@@ -7,8 +8,7 @@ import Tchat from './Tchat';
 import Sprech from './Sprech';
 
 export default function LeftPanel() {
-  const { fileDetails, setFileDetails, selectedView, setSelectedView } = useResponse();
-  const [isMinimizedView, setIsMinimizedView] = useState(false);
+  const { fileDetails, setFileDetails, isMinimizedView, setIsMinimizedView } = useResponse();
   const [showChatPanel, setShowChatPanel] = useState(false);
   const [messages, setMessages] = useState<string[]>([]);
   const [currentMessage, setCurrentMessage] = useState<string>('');
@@ -17,11 +17,10 @@ export default function LeftPanel() {
     setFileDetails((prevDetails) => prevDetails.filter((_, i) => i !== index));
   };
 
-  const handleCopyFile = (content: string, view: boolean) => {
-    if (view) {
-      content = content.replace(/\s+/g, '/'); // Remplace les espaces et les sauts de ligne par un /
-    }
-    navigator.clipboard.writeText(content);
+  const handleCopyFile = (content: string) => {
+    navigator.clipboard.writeText(content)
+      .then(() => console.log('Content copied to clipboard'))
+      .catch(err => console.error('Failed to copy content: ', err));
   };
 
   const handleSendMessage = async (message: string, body: any, isButton: boolean) => {
@@ -45,10 +44,8 @@ export default function LeftPanel() {
       const assistantMessage = data.choices[0].message.content;
 
       if (isButton) {
-        // Update the text area with the response if the call was made by button
         setCurrentMessage(assistantMessage);
       } else {
-        // Update the chat with the response if the call was made by Enter key
         setMessages((prevMessages) => [...prevMessages, `Assistant: ${assistantMessage}`]);
       }
     } catch (error) {
@@ -71,29 +68,6 @@ export default function LeftPanel() {
           Switch to {showChatPanel ? 'File Details' : 'Chat'}
         </button>
       </div>
-      {!showChatPanel && (
-        <div className="flex flex-row space-x-2 p-4">
-          <button
-            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'all' ? 'border-red-500' : ''}`}
-            onClick={() => setSelectedView('all')}
-          >
-            All
-          </button>
-          <button
-            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'import' ? 'border-red-500' : ''}`}
-            onClick={() => setSelectedView('import')}
-          >
-            Import
-          </button>
-          <button
-            className={`border border-blue-500 bg-gradient-to-r from-blue-500 to-transparent bg-green-500 p-2 rounded ${selectedView === 'css' ? 'border-red-500' : ''}`}
-            onClick={() => setSelectedView('css')}
-          >
-            CSS
-          </button>
-          
-        </div>
-      )}
       <div className="flex-grow overflow-y-auto p-4">
         {showChatPanel ? (
           <div className="flex flex-col h-full p-6 max-h-screen">
@@ -114,9 +88,9 @@ export default function LeftPanel() {
                 fileContentMinimized={fileDetail.fileContentMinimized}
                 isMinimizedView={isMinimizedView}
                 onRemove={() => handleRemoveFile(index)}
-                onCopy={() => handleCopyFile(fileDetail.fileContent, isMinimizedView)}
+                onCopy={handleCopyFile}
                 setIsMinimizedView={setIsMinimizedView}
-                fileDetail={fileDetail.fileDetail} // Passer fileDetail ici
+                fileDetail={fileDetail.fileDetail}
                 extension={fileDetail.extension}
               />
             ))

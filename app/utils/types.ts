@@ -6,6 +6,7 @@ export interface FileNode {
   sha: string;
   isOpen: boolean; // Ajoutez cette propriété pour gérer l'état ouvert/fermé
 }
+export type SelectedView = 'all' | 'Import / Export' | 'css';
 
 export interface TreeElement {
   path: string;

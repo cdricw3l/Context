@@ -1,6 +1,6 @@
 {
-  "sha": "5b89d32898461224c5a13285de42a4b64f485768",
-  "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/5b89d32898461224c5a13285de42a4b64f485768",
+  "sha": "196359bff3b7a6d2832c6b673df58f64165d0f78",
+  "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/196359bff3b7a6d2832c6b673df58f64165d0f78",
   "tree": [
     {
       "path": ".eslintrc.json",
@@ -22,9 +22,9 @@
       "path": "README.md",
       "mode": "100644",
       "type": "blob",
-      "sha": "47abc85b2ed7e1b549666658d6fa39aec5b0badd",
-      "size": 14271,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/47abc85b2ed7e1b549666658d6fa39aec5b0badd"
+      "sha": "29dd6f5a5f2db947f98ef0b08fafa937d563dc39",
+      "size": 4441,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/29dd6f5a5f2db947f98ef0b08fafa937d563dc39"
     },
     {
       "path": "Untitled-1.sh",
@@ -38,31 +38,31 @@
       "path": "app",
       "mode": "040000",
       "type": "tree",
-      "sha": "b2c2d5e7f8f9190a397c67ff9d3d66575b4b579e",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/b2c2d5e7f8f9190a397c67ff9d3d66575b4b579e"
+      "sha": "3dd5fdab36d3b73a18017205a12802a25cb93d6c",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/3dd5fdab36d3b73a18017205a12802a25cb93d6c"
     },
     {
       "path": "app/components",
       "mode": "040000",
       "type": "tree",
-      "sha": "b97399f1c4a5f250eab018e8251ba30741604c5a",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/b97399f1c4a5f250eab018e8251ba30741604c5a"
+      "sha": "536ebb172df5a92f3288ed28ef80c73a31cd0a20",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/536ebb172df5a92f3288ed28ef80c73a31cd0a20"
     },
     {
       "path": "app/components/ButtonCopy.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "b60fc9b13ef2a77013ea316574635e859be2d354",
-      "size": 1157,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b60fc9b13ef2a77013ea316574635e859be2d354"
+      "sha": "04056a216c737dfd95179ef0d3aa29dc7ea7c217",
+      "size": 2364,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/04056a216c737dfd95179ef0d3aa29dc7ea7c217"
     },
     {
       "path": "app/components/ButtonLogout.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "8625a89392b0d0a2f4ad8f14ab29c4f731e4a621",
-      "size": 715,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8625a89392b0d0a2f4ad8f14ab29c4f731e4a621"
+      "sha": "e614d3d3879c5b8a66d473ae9af6b26a6def3048",
+      "size": 693,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e614d3d3879c5b8a66d473ae9af6b26a6def3048"
     },
     {
       "path": "app/components/ErrorMessage.tsx",
@@ -76,9 +76,9 @@
       "path": "app/components/FileContentDetails.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "6dfc8fa3041fdf95175f35dedbfec2f09da2668a",
-      "size": 4189,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6dfc8fa3041fdf95175f35dedbfec2f09da2668a"
+      "sha": "7d6e1c179a1659570c777fee966bcddcf3da8782",
+      "size": 5237,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7d6e1c179a1659570c777fee966bcddcf3da8782"
     },
     {
       "path": "app/components/FileDetails.tsx",
@@ -100,25 +100,17 @@
       "path": "app/components/InputForm.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "6e8a18773d06e25b30093c526857611603a08b50",
-      "size": 4357,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6e8a18773d06e25b30093c526857611603a08b50"
+      "sha": "7984505adbedd4ac15aac2becb41a28f93d213c2",
+      "size": 5374,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7984505adbedd4ac15aac2becb41a28f93d213c2"
     },
     {
       "path": "app/components/LeftPanel.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "609333e9570951b1bcb23e81f1781d0ca6890473",
-      "size": 5408,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/609333e9570951b1bcb23e81f1781d0ca6890473"
-    },
-    {
-      "path": "app/components/LeftPaneltest.tsx",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "306e3e264547011d086a9719128fb2e74d9dd1a7",
-      "size": 5126,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/306e3e264547011d086a9719128fb2e74d9dd1a7"
+      "sha": "4e2f0a39c2396cb3a8e93bc2b0587ff61b6fe0d7",
+      "size": 4893,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4e2f0a39c2396cb3a8e93bc2b0587ff61b6fe0d7"
     },
     {
       "path": "app/components/Link.tsx",
@@ -127,14 +119,6 @@
       "sha": "00c168c04b7ad60a694b0efbbc589a1cfce45641",
       "size": 616,
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/00c168c04b7ad60a694b0efbbc589a1cfce45641"
-    },
-    {
-      "path": "app/components/Loading",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "size": 0,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
     },
     {
       "path": "app/components/Loading.tsx",
@@ -156,9 +140,9 @@
       "path": "app/components/NavBar.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "6e1986a6095019015cc1d217153688c35908e789",
-      "size": 3658,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6e1986a6095019015cc1d217153688c35908e789"
+      "sha": "253ba40416ac07c8e8cf18eab46b264f83bfc228",
+      "size": 5538,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/253ba40416ac07c8e8cf18eab46b264f83bfc228"
     },
     {
       "path": "app/components/NavBarButton.tsx",
@@ -196,25 +180,25 @@
       "path": "app/components/ProjectStructure.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "a2d78f12109bc829b0a36e61a104f1205dc94827",
-      "size": 1927,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a2d78f12109bc829b0a36e61a104f1205dc94827"
+      "sha": "86a1f33a4301cefb28de7abfb59000b97507a507",
+      "size": 1917,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/86a1f33a4301cefb28de7abfb59000b97507a507"
     },
     {
-      "path": "app/components/RepoStats.tsx",
+      "path": "app/components/Recherche.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "7f642f802bee1ce1631291ad247cadb0764b5418",
-      "size": 2958,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7f642f802bee1ce1631291ad247cadb0764b5418"
+      "sha": "44553ccf8c70216e17c6720106f027ed52eb1f1b",
+      "size": 6217,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/44553ccf8c70216e17c6720106f027ed52eb1f1b"
     },
     {
       "path": "app/components/RightPanel.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "7869391c90737659f710f5d8cc215bf0f258fcba",
-      "size": 1751,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7869391c90737659f710f5d8cc215bf0f258fcba"
+      "sha": "d1fab668b5f09bbc3eda29bd192987bf90b21439",
+      "size": 7465,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d1fab668b5f09bbc3eda29bd192987bf90b21439"
     },
     {
       "path": "app/components/SectionContainer.tsx",
@@ -223,14 +207,6 @@
       "sha": "c557e8854659fda64f73debdcc7d25c074d63f01",
       "size": 303,
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c557e8854659fda64f73debdcc7d25c074d63f01"
-    },
-    {
-      "path": "app/components/SessionProviderWrapper.tsx",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "12fd90b270d8402838384a58074b761430bfec95",
-      "size": 294,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/12fd90b270d8402838384a58074b761430bfec95"
     },
     {
       "path": "app/components/Sprech.tsx",
@@ -244,9 +220,17 @@
       "path": "app/components/Tchat.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "44553ccf8c70216e17c6720106f027ed52eb1f1b",
-      "size": 6217,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/44553ccf8c70216e17c6720106f027ed52eb1f1b"
+      "sha": "9edd02aed4c3d2be7909ec4fee0fe9f82d443590",
+      "size": 6218,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/9edd02aed4c3d2be7909ec4fee0fe9f82d443590"
+    },
+    {
+      "path": "app/components/TextTreeModal.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d5792280b1c1fdf0e544a674de470aaa043312",
+      "size": 2618,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f2d5792280b1c1fdf0e544a674de470aaa043312"
     },
     {
       "path": "app/components/Tree.tsx",
@@ -257,12 +241,12 @@
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/deac725ebe787aae3dc7e9a2c95d3c39c152f0ae"
     },
     {
-      "path": "app/components/leftPanelV2.tsx",
+      "path": "app/components/TreeBlock.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "4c455a5535baf225a8c61bb83b51ee69c28bb847",
-      "size": 6653,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4c455a5535baf225a8c61bb83b51ee69c28bb847"
+      "sha": "0b62555e2f4797006d9c71cd8abea50363a6233f",
+      "size": 2852,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0b62555e2f4797006d9c71cd8abea50363a6233f"
     },
     {
       "path": "app/components/social-icons",
@@ -291,31 +275,16 @@
       "path": "app/context",
       "mode": "040000",
       "type": "tree",
-      "sha": "fc1d56c319477928f2d74893f8491338a368b5c4",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/fc1d56c319477928f2d74893f8491338a368b5c4"
+      "sha": "664325047657820c39d614024331695b32569880",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/664325047657820c39d614024331695b32569880"
     },
     {
       "path": "app/context/ResponseContext.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "c3810cf945f0c84c5aa9d26b43587b2357e34e07",
-      "size": 1702,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c3810cf945f0c84c5aa9d26b43587b2357e34e07"
-    },
-    {
-      "path": "app/dashboard",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "0acc05dafff8edfb061f461984dfd389435c5ec2",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/0acc05dafff8edfb061f461984dfd389435c5ec2"
-    },
-    {
-      "path": "app/dashboard/page.tsx",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c031f9ee70f580bde67683260f08e2a8840cde95",
-      "size": 1073,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c031f9ee70f580bde67683260f08e2a8840cde95"
+      "sha": "0cafe02d7ae2ac6c03a077f209314c69b12af4c7",
+      "size": 3367,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0cafe02d7ae2ac6c03a077f209314c69b12af4c7"
     },
     {
       "path": "app/data",
@@ -349,43 +318,28 @@
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/718d6fea4835ec2d246af9800eddb7ffb276240c"
     },
     {
-      "path": "app/github",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "0e286addfc3085ae8ff7b1ae313e9ec8136cd84b",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/0e286addfc3085ae8ff7b1ae313e9ec8136cd84b"
-    },
-    {
-      "path": "app/github/page.tsx",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "9d66fede416ca9da29001d0cf6d4f796c8e36a61",
-      "size": 1938,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/9d66fede416ca9da29001d0cf6d4f796c8e36a61"
-    },
-    {
       "path": "app/globals.css",
       "mode": "100644",
       "type": "blob",
-      "sha": "6228528bca6b48ef66935c2eed3d2970d79a2f94",
-      "size": 870,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6228528bca6b48ef66935c2eed3d2970d79a2f94"
+      "sha": "cac319e682c7a420b3f86e9d01e3c59ce72be1f6",
+      "size": 871,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/cac319e682c7a420b3f86e9d01e3c59ce72be1f6"
     },
     {
       "path": "app/layout.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "55973d9469b34ab1a801c78514d63b5a7b00ca53",
-      "size": 1318,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/55973d9469b34ab1a801c78514d63b5a7b00ca53"
+      "sha": "7ac6ac76f8a1c76dc506bf40c2af20793a407015",
+      "size": 1271,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7ac6ac76f8a1c76dc506bf40c2af20793a407015"
     },
     {
       "path": "app/page.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "675debef3ef3ae5a29578c7aab0d45072b1e6622",
-      "size": 605,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/675debef3ef3ae5a29578c7aab0d45072b1e6622"
+      "sha": "67aba89af2dbd2799aaeb1ca6a963965583ccb53",
+      "size": 680,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/67aba89af2dbd2799aaeb1ca6a963965583ccb53"
     },
     {
       "path": "app/posts",
@@ -421,16 +375,16 @@
       "path": "app/utils",
       "mode": "040000",
       "type": "tree",
-      "sha": "a284ff89e1c5428f7b36e489710a77dc4b3b72b6",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/a284ff89e1c5428f7b36e489710a77dc4b3b72b6"
+      "sha": "e9ec014c14fcab57226288965235d563b4c0b088",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/e9ec014c14fcab57226288965235d563b4c0b088"
     },
     {
       "path": "app/utils/apiUtils.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "b64b88fb942dc5f61cf105769f2be180d9e27198",
-      "size": 1686,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b64b88fb942dc5f61cf105769f2be180d9e27198"
+      "sha": "f8ff848d2b4f6470cff1e30311a47d31130c17c3",
+      "size": 1902,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f8ff848d2b4f6470cff1e30311a47d31130c17c3"
     },
     {
       "path": "app/utils/clipboardUtils.ts",
@@ -441,14 +395,6 @@
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1dfefa9cd27877db83aef8932530b4b5aa7858cd"
     },
     {
-      "path": "app/utils/cloneData.ts",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "size": 0,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
-    },
-    {
       "path": "app/utils/dataProcessing.ts",
       "mode": "100644",
       "type": "blob",
@@ -457,28 +403,20 @@
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5e6c2fe472bec57bbee53efcfabcb819ad193225"
     },
     {
-      "path": "app/utils/markdown.ts",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "271f277921fbbaea723ff0018eb1ee1108fa0e92",
-      "size": 1320,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/271f277921fbbaea723ff0018eb1ee1108fa0e92"
-    },
-    {
       "path": "app/utils/treeUtils.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "8a1d19dda5d7c0eaa3d41c0935ccfe78718f66ab",
-      "size": 2903,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8a1d19dda5d7c0eaa3d41c0935ccfe78718f66ab"
+      "sha": "ea0538b7a6d4fffb8d553c64a4146bdd3dd797b9",
+      "size": 2920,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ea0538b7a6d4fffb8d553c64a4146bdd3dd797b9"
     },
     {
       "path": "app/utils/types.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "a55f8ba93441278bc47de0c3182b8886131ac714",
-      "size": 786,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a55f8ba93441278bc47de0c3182b8886131ac714"
+      "sha": "a1582db12fa993e36617523aecc4e61e6bbf5727",
+      "size": 826,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a1582db12fa993e36617523aecc4e61e6bbf5727"
     },
     {
       "path": "cloneRepo.sh",
@@ -495,14 +433,6 @@
       "sha": "7bd068fa9f222169f73a703c2933d11e3216b972",
       "size": 1110,
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7bd068fa9f222169f73a703c2933d11e3216b972"
-    },
-    {
-      "path": "next-auth.d.ts",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "3792413adca8cc652c9631f555b6788453d8baf2",
-      "size": 405,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/3792413adca8cc652c9631f555b6788453d8baf2"
     },
     {
       "path": "next.config.js",
@@ -524,23 +454,15 @@
       "path": "pages",
       "mode": "040000",
       "type": "tree",
-      "sha": "6e4194d28213642196715a23a66d34f90ddc8327",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/6e4194d28213642196715a23a66d34f90ddc8327"
-    },
-    {
-      "path": "pages/Dockerfile",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "06b549ae6c8afb534154bd43944608a9c17ee910",
-      "size": 364,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/06b549ae6c8afb534154bd43944608a9c17ee910"
+      "sha": "f6e309ce82a8abcd78e8d0a0f6104e6a3ad98ad1",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/f6e309ce82a8abcd78e8d0a0f6104e6a3ad98ad1"
     },
     {
       "path": "pages/api",
       "mode": "040000",
       "type": "tree",
-      "sha": "46c5c31f122454e7b09486562cf9074eb0db431d",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/46c5c31f122454e7b09486562cf9074eb0db431d"
+      "sha": "ebb2e670d72f2c9c5b95367b7850eb7dd996e022",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/ebb2e670d72f2c9c5b95367b7850eb7dd996e022"
     },
     {
       "path": "pages/api/Chat",
@@ -556,21 +478,6 @@
       "sha": "c254369f74347dde627859dbddceda1386e2dc48",
       "size": 1159,
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c254369f74347dde627859dbddceda1386e2dc48"
-    },
-    {
-      "path": "pages/api/auth",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "b8d44b1a0b8f06816f2030a9b86b3eea56699cf7",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/b8d44b1a0b8f06816f2030a9b86b3eea56699cf7"
-    },
-    {
-      "path": "pages/api/auth/[...nextauth].ts",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "de7e12f31cdcf6375f3fa6ef8c5299471a8ca863",
-      "size": 2086,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/de7e12f31cdcf6375f3fa6ef8c5299471a8ca863"
     },
     {
       "path": "pages/api/back",
@@ -629,39 +536,23 @@
       "path": "pages/api/extractStructure",
       "mode": "040000",
       "type": "tree",
-      "sha": "3df7225335f0b742150eac4a528aeb4dff844d54",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/3df7225335f0b742150eac4a528aeb4dff844d54"
+      "sha": "6294a8ec011829a093291c41e4b116e348d567a2",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/6294a8ec011829a093291c41e4b116e348d567a2"
     },
     {
       "path": "pages/api/extractStructure/extractStructure.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "a94313c942f5650fb45c046b43f4c13605025465",
-      "size": 2114,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a94313c942f5650fb45c046b43f4c13605025465"
+      "sha": "279a0004316a389e99f6ebcee759538e5e98bbdb",
+      "size": 906,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/279a0004316a389e99f6ebcee759538e5e98bbdb"
     },
     {
       "path": "pages/api/github",
       "mode": "040000",
       "type": "tree",
-      "sha": "cdf36452c49b62aa8fa5068936ec867560a155f3",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/cdf36452c49b62aa8fa5068936ec867560a155f3"
-    },
-    {
-      "path": "pages/api/github/<div className=\"space-x-2\">.xml",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8004f8763e02b88054785ddd5a8f270696b419ab",
-      "size": 2548,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8004f8763e02b88054785ddd5a8f270696b419ab"
-    },
-    {
-      "path": "pages/api/github/Untitled-2.sh",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "59eafeff5c918ec385e8f069db9d50a2051574e6",
-      "size": 592,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/59eafeff5c918ec385e8f069db9d50a2051574e6"
+      "sha": "9d52b92463644302049255259764e67e2e4889ea",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/9d52b92463644302049255259764e67e2e4889ea"
     },
     {
       "path": "pages/api/github/getBranches.ts",
@@ -675,17 +566,17 @@
       "path": "pages/api/github/getFileContent.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "f4fb029f6f49446086f6c71e2ae33b3491f3b0ea",
-      "size": 2230,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f4fb029f6f49446086f6c71e2ae33b3491f3b0ea"
+      "sha": "01c547a8b7f581694105366bca32a1a1bbc9cd62",
+      "size": 2087,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/01c547a8b7f581694105366bca32a1a1bbc9cd62"
     },
     {
       "path": "pages/api/github/getRepoDetails.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "80bf7e80843107e256a9bda69612636ad696b75c",
-      "size": 3197,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/80bf7e80843107e256a9bda69612636ad696b75c"
+      "sha": "aa4d7435ae18634bc66faf71599edf17d4593e46",
+      "size": 3289,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/aa4d7435ae18634bc66faf71599edf17d4593e46"
     },
     {
       "path": "pages/api/github/getRepoRust.ts",
@@ -714,16 +605,16 @@
       "path": "pages/sign",
       "mode": "040000",
       "type": "tree",
-      "sha": "6e31c4034e27589fb2a68b5d56dcc6d230e29f45",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/6e31c4034e27589fb2a68b5d56dcc6d230e29f45"
+      "sha": "f47f8b679ccac69e6d03781c5d84e6e89a1bb9d9",
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/f47f8b679ccac69e6d03781c5d84e6e89a1bb9d9"
     },
     {
       "path": "pages/sign/signIn.tsx",
       "mode": "100644",
       "type": "blob",
-      "sha": "c6ee5075540c273b8b0d9702e7fa026385740f34",
-      "size": 2491,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c6ee5075540c273b8b0d9702e7fa026385740f34"
+      "sha": "77ba7cec57b27cda1360b074d6e516d5508ad967",
+      "size": 2495,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/77ba7cec57b27cda1360b074d6e516d5508ad967"
     },
     {
       "path": "pnpm-lock.yaml",
@@ -740,51 +631,6 @@
       "sha": "1a69fd2a450afc3bf47e08b22c149190df0ffdb4",
       "size": 135,
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1a69fd2a450afc3bf47e08b22c149190df0ffdb4"
-    },
-    {
-      "path": "prisma",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "db3cad7f50dea1371dc1a2e912dd14f2ee3d396d",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/db3cad7f50dea1371dc1a2e912dd14f2ee3d396d"
-    },
-    {
-      "path": "prisma/migrations",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "b4223ff940e5bbd018d25cfa853136e8fd955dd5",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/b4223ff940e5bbd018d25cfa853136e8fd955dd5"
-    },
-    {
-      "path": "prisma/migrations/20240522180751_init",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "64943b19acf25666a012e1e9d4028d2220fd68b6",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/64943b19acf25666a012e1e9d4028d2220fd68b6"
-    },
-    {
-      "path": "prisma/migrations/20240522180751_init/migration.sql",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "6033acf418eee64d17b408d1f184f6659b87df5c",
-      "size": 1817,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6033acf418eee64d17b408d1f184f6659b87df5c"
-    },
-    {
-      "path": "prisma/migrations/migration_lock.toml",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "fbffa92c2bb7c748d6fc78f9f9dcac604dabb87d",
-      "size": 126,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/fbffa92c2bb7c748d6fc78f9f9dcac604dabb87d"
-    },
-    {
-      "path": "prisma/schema.prisma",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e8d343fbfe07b82be0244f100c449aa8dfb3e435",
-      "size": 1312,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e8d343fbfe07b82be0244f100c449aa8dfb3e435"
     },
     {
       "path": "public",
@@ -825,1991 +671,6 @@
       "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d2f84222734f27b623d1c80dda3561b04d1284af"
     },
     {
-      "path": "rustbook",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "8825efb5ebafa49c4c1c9da33ba4d5e078c97d90",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/8825efb5ebafa49c4c1c9da33ba4d5e078c97d90"
-    },
-    {
-      "path": "rustbook/eng",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "a262771602e6de5b6a4c9d0d2dfad96e5890bad5",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/a262771602e6de5b6a4c9d0d2dfad96e5890bad5"
-    },
-    {
-      "path": "rustbook/eng/SUMMARY.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "b4b58afdeee2c43fd9ff5d70bfd6ba9bba0df7e2",
-      "size": 7309,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b4b58afdeee2c43fd9ff5d70bfd6ba9bba0df7e2"
-    },
-    {
-      "path": "rustbook/eng/appendix-00.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "83a7e913292baba90488caf02ac501e0d677bc3a",
-      "size": 104,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/83a7e913292baba90488caf02ac501e0d677bc3a"
-    },
-    {
-      "path": "rustbook/eng/appendix-01-keywords.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "b84894591599ddd88e571688d8e8f47753db54cd",
-      "size": 5082,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b84894591599ddd88e571688d8e8f47753db54cd"
-    },
-    {
-      "path": "rustbook/eng/appendix-02-operators.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "0a8dab9d61bef5edaa0f8f05b908acea4f5a3880",
-      "size": 10153,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0a8dab9d61bef5edaa0f8f05b908acea4f5a3880"
-    },
-    {
-      "path": "rustbook/eng/appendix-03-derivable-traits.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8b9b3d3584c08732f87a663e1c9c06f0841e7382",
-      "size": 9802,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8b9b3d3584c08732f87a663e1c9c06f0841e7382"
-    },
-    {
-      "path": "rustbook/eng/appendix-04-useful-development-tools.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "30249ed578f9313bed749be30e41e03c88ca7550",
-      "size": 5485,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/30249ed578f9313bed749be30e41e03c88ca7550"
-    },
-    {
-      "path": "rustbook/eng/appendix-05-editions.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "90828ebbafd449962541ed2e95b92b0042348a20",
-      "size": 3036,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/90828ebbafd449962541ed2e95b92b0042348a20"
-    },
-    {
-      "path": "rustbook/eng/appendix-06-translation.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "54d58376ee536b9159da310600a58b6dd00ebb5e",
-      "size": 1586,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/54d58376ee536b9159da310600a58b6dd00ebb5e"
-    },
-    {
-      "path": "rustbook/eng/appendix-07-nightly-rust.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ac3fbb9df973555d9d7c50841492060a9743d3ac",
-      "size": 9052,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ac3fbb9df973555d9d7c50841492060a9743d3ac"
-    },
-    {
-      "path": "rustbook/eng/ch00-00-introduction.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "12632aa0bf151e057ef35e253074aee8c7fe9de2",
-      "size": 10424,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/12632aa0bf151e057ef35e253074aee8c7fe9de2"
-    },
-    {
-      "path": "rustbook/eng/ch01-00-getting-started.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ff5e324f7a18235262070e64679f9dd6578083e7",
-      "size": 303,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ff5e324f7a18235262070e64679f9dd6578083e7"
-    },
-    {
-      "path": "rustbook/eng/ch01-01-installation.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "64968f6bc72bb7ae80c450d2bd8c86cc51f43bf1",
-      "size": 4838,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/64968f6bc72bb7ae80c450d2bd8c86cc51f43bf1"
-    },
-    {
-      "path": "rustbook/eng/ch01-02-hello-world.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "f0b97e4949f52a0a6f1169c11cc885df525536a3",
-      "size": 7275,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f0b97e4949f52a0a6f1169c11cc885df525536a3"
-    },
-    {
-      "path": "rustbook/eng/ch01-03-hello-cargo.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "5750e4f015a46478e7b23621449f9ae4288ceba5",
-      "size": 10906,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5750e4f015a46478e7b23621449f9ae4288ceba5"
-    },
-    {
-      "path": "rustbook/eng/ch02-00-guessing-game-tutorial.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "f80ad52082d40f4478c367de191ac37393b4f867",
-      "size": 39752,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f80ad52082d40f4478c367de191ac37393b4f867"
-    },
-    {
-      "path": "rustbook/eng/ch03-00-common-programming-concepts.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2e37fad02cbe252e04e03a3b1183d8487f5212e6",
-      "size": 1191,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2e37fad02cbe252e04e03a3b1183d8487f5212e6"
-    },
-    {
-      "path": "rustbook/eng/ch03-01-variables-and-mutability.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "058f7bb5c45d5a7487108916c70a6ecad2a17c2a",
-      "size": 9341,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/058f7bb5c45d5a7487108916c70a6ecad2a17c2a"
-    },
-    {
-      "path": "rustbook/eng/ch03-02-data-types.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2cfc156e89a9e968315325cdc888253e2172f7e9",
-      "size": 17142,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2cfc156e89a9e968315325cdc888253e2172f7e9"
-    },
-    {
-      "path": "rustbook/eng/ch03-03-how-functions-work.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2b59f0cd4506d7cc4d6fd061165d9ec3ce56ecc4",
-      "size": 10745,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2b59f0cd4506d7cc4d6fd061165d9ec3ce56ecc4"
-    },
-    {
-      "path": "rustbook/eng/ch03-04-comments.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bfb0cfe177e7e0304483fa49a31b10e17d298e76",
-      "size": 1528,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bfb0cfe177e7e0304483fa49a31b10e17d298e76"
-    },
-    {
-      "path": "rustbook/eng/ch03-05-control-flow.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ac416660d982a6dfc63750b82332f257a7ea6ddd",
-      "size": 16755,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ac416660d982a6dfc63750b82332f257a7ea6ddd"
-    },
-    {
-      "path": "rustbook/eng/ch04-00-understanding-ownership.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "52eda6a12f0a69dbbead2ac2b38818c401e25f88",
-      "size": 406,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/52eda6a12f0a69dbbead2ac2b38818c401e25f88"
-    },
-    {
-      "path": "rustbook/eng/ch04-01-what-is-ownership.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "5249c2dd77f41236fecc06ee62ddef4a9b08eb0f",
-      "size": 24108,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5249c2dd77f41236fecc06ee62ddef4a9b08eb0f"
-    },
-    {
-      "path": "rustbook/eng/ch04-02-references-and-borrowing.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ea2d8d2029c404f6dbf94ca31885cc5b33bbfad5",
-      "size": 10660,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ea2d8d2029c404f6dbf94ca31885cc5b33bbfad5"
-    },
-    {
-      "path": "rustbook/eng/ch04-03-slices.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7f8c9b7af21dc782c51e6c677b41313942c8d9eb",
-      "size": 13111,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7f8c9b7af21dc782c51e6c677b41313942c8d9eb"
-    },
-    {
-      "path": "rustbook/eng/ch05-00-structs.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d41482579ab8f211218e0e743096d99baf87bed9",
-      "size": 861,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d41482579ab8f211218e0e743096d99baf87bed9"
-    },
-    {
-      "path": "rustbook/eng/ch05-01-defining-structs.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c5db4dc74d9ea37bf8d9b89092a52acb99890a47",
-      "size": 13159,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c5db4dc74d9ea37bf8d9b89092a52acb99890a47"
-    },
-    {
-      "path": "rustbook/eng/ch05-02-example-structs.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1e7c9f7e9b0ddd8f727f45856ebb522625b17d58",
-      "size": 11534,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1e7c9f7e9b0ddd8f727f45856ebb522625b17d58"
-    },
-    {
-      "path": "rustbook/eng/ch05-03-method-syntax.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d25e55b18ceea900fabdef72b78ab39362cfb678",
-      "size": 12199,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d25e55b18ceea900fabdef72b78ab39362cfb678"
-    },
-    {
-      "path": "rustbook/eng/ch06-00-enums.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8a7faa9f30cec14467f783a4b98be17bb8a57260",
-      "size": 673,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8a7faa9f30cec14467f783a4b98be17bb8a57260"
-    },
-    {
-      "path": "rustbook/eng/ch06-01-defining-an-enum.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "eacd091bd4838acb33115b86af3288dd960b7858",
-      "size": 15665,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/eacd091bd4838acb33115b86af3288dd960b7858"
-    },
-    {
-      "path": "rustbook/eng/ch06-02-match.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "6a510df402fee0cdf07a62c078bfaaa5dc6d58fd",
-      "size": 12475,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6a510df402fee0cdf07a62c078bfaaa5dc6d58fd"
-    },
-    {
-      "path": "rustbook/eng/ch06-03-if-let.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c9bfbf3c7fbc8e4f863134acf21e9d2bfdf5a97c",
-      "size": 3921,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c9bfbf3c7fbc8e4f863134acf21e9d2bfdf5a97c"
-    },
-    {
-      "path": "rustbook/eng/ch07-00-managing-growing-projects-with-packages-crates-and-modules.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "0f7abf51e37e947ef8057624a19d86763f9e049e",
-      "size": 2890,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0f7abf51e37e947ef8057624a19d86763f9e049e"
-    },
-    {
-      "path": "rustbook/eng/ch07-01-packages-and-crates.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "140a98518b4116e6aaacfd1fa9423e11229ffe30",
-      "size": 3833,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/140a98518b4116e6aaacfd1fa9423e11229ffe30"
-    },
-    {
-      "path": "rustbook/eng/ch07-02-defining-modules-to-control-scope-and-privacy.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4a25c161be0db6f95116784b410b0589855f66b4",
-      "size": 7936,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4a25c161be0db6f95116784b410b0589855f66b4"
-    },
-    {
-      "path": "rustbook/eng/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4201ea3db2ce11e9ba4786da9962d656ded84491",
-      "size": 15389,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4201ea3db2ce11e9ba4786da9962d656ded84491"
-    },
-    {
-      "path": "rustbook/eng/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "defa950c6b558aff4dd4b9d90050e4902e7d50e2",
-      "size": 13480,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/defa950c6b558aff4dd4b9d90050e4902e7d50e2"
-    },
-    {
-      "path": "rustbook/eng/ch07-05-separating-modules-into-different-files.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "b4cbcdbeda827136c526c1d2c3933e741aa13901",
-      "size": 6131,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b4cbcdbeda827136c526c1d2c3933e741aa13901"
-    },
-    {
-      "path": "rustbook/eng/ch08-00-common-collections.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c9de36be1d97580a513a90e777c505b8ce3cd408",
-      "size": 1349,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c9de36be1d97580a513a90e777c505b8ce3cd408"
-    },
-    {
-      "path": "rustbook/eng/ch08-01-vectors.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ece5d59dce413feaa0f96ce36bafb5ebfe211d1e",
-      "size": 11630,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ece5d59dce413feaa0f96ce36bafb5ebfe211d1e"
-    },
-    {
-      "path": "rustbook/eng/ch08-02-strings.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "be0c874748bc86eeba6c75be6faf2155edb8c80a",
-      "size": 17020,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/be0c874748bc86eeba6c75be6faf2155edb8c80a"
-    },
-    {
-      "path": "rustbook/eng/ch08-03-hash-maps.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "72331e5b91cf77d6d379ca8f1c55826fdc35d340",
-      "size": 11534,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/72331e5b91cf77d6d379ca8f1c55826fdc35d340"
-    },
-    {
-      "path": "rustbook/eng/ch09-00-error-handling.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "790955c59196bf8560060dcd3376bda42c87f0b6",
-      "size": 1383,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/790955c59196bf8560060dcd3376bda42c87f0b6"
-    },
-    {
-      "path": "rustbook/eng/ch09-01-unrecoverable-errors-with-panic.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "3928f8d61a46882176532fc7df24c31eb86d7cac",
-      "size": 8424,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/3928f8d61a46882176532fc7df24c31eb86d7cac"
-    },
-    {
-      "path": "rustbook/eng/ch09-02-recoverable-errors-with-result.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c6c4e4b96212408ef49f9ec0d330cbf031393f3a",
-      "size": 26332,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c6c4e4b96212408ef49f9ec0d330cbf031393f3a"
-    },
-    {
-      "path": "rustbook/eng/ch09-03-to-panic-or-not-to-panic.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7c77cf9331f6551cbf3c9695d30fca3e93c63e61",
-      "size": 13217,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7c77cf9331f6551cbf3c9695d30fca3e93c63e61"
-    },
-    {
-      "path": "rustbook/eng/ch10-00-generics.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bfe7ad3eeceeba78669d2f15c8de0bcef712be6f",
-      "size": 5808,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bfe7ad3eeceeba78669d2f15c8de0bcef712be6f"
-    },
-    {
-      "path": "rustbook/eng/ch10-01-syntax.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "431dba966790d8d160a661c7341899cc7ccf111c",
-      "size": 14754,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/431dba966790d8d160a661c7341899cc7ccf111c"
-    },
-    {
-      "path": "rustbook/eng/ch10-02-traits.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "3c4fb8cad1b4c434ce6f6153621b12a0e4e4035a",
-      "size": 18367,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/3c4fb8cad1b4c434ce6f6153621b12a0e4e4035a"
-    },
-    {
-      "path": "rustbook/eng/ch10-03-lifetime-syntax.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "197e2c6f596c38e13cf4eebf9c5600aa7ad5da31",
-      "size": 30454,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/197e2c6f596c38e13cf4eebf9c5600aa7ad5da31"
-    },
-    {
-      "path": "rustbook/eng/ch11-00-testing.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7f11ec1494fe9fc5d6a4b14422059657fe041efa",
-      "size": 1969,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7f11ec1494fe9fc5d6a4b14422059657fe041efa"
-    },
-    {
-      "path": "rustbook/eng/ch11-01-writing-tests.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "f1295931f4b203f130c5a4e9b91a6151820b6430",
-      "size": 24960,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f1295931f4b203f130c5a4e9b91a6151820b6430"
-    },
-    {
-      "path": "rustbook/eng/ch11-02-running-tests.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "194718256cfc11607edd117dd392c224c88961f6",
-      "size": 7893,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/194718256cfc11607edd117dd392c224c88961f6"
-    },
-    {
-      "path": "rustbook/eng/ch11-03-test-organization.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "fb592e909c5e6f96d3d0a85948c87afc8935bd55",
-      "size": 12678,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/fb592e909c5e6f96d3d0a85948c87afc8935bd55"
-    },
-    {
-      "path": "rustbook/eng/ch12-00-an-io-project.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bae99c75f74290474e36f94b127ed6ec2d88a23b",
-      "size": 2542,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bae99c75f74290474e36f94b127ed6ec2d88a23b"
-    },
-    {
-      "path": "rustbook/eng/ch12-01-accepting-command-line-arguments.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bb69366633f03101111bc38cec4c6a00f4034ae2",
-      "size": 6314,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bb69366633f03101111bc38cec4c6a00f4034ae2"
-    },
-    {
-      "path": "rustbook/eng/ch12-02-reading-a-file.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d8340a2a07990fdb2bacdb6e3c081137bcd8bbb9",
-      "size": 2393,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d8340a2a07990fdb2bacdb6e3c081137bcd8bbb9"
-    },
-    {
-      "path": "rustbook/eng/ch12-03-improving-error-handling-and-modularity.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1b67d63d6db3852dde3ac9c87721c93488182a4f",
-      "size": 24764,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1b67d63d6db3852dde3ac9c87721c93488182a4f"
-    },
-    {
-      "path": "rustbook/eng/ch12-04-testing-the-librarys-functionality.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "129f835aa15f904bab30a0871d1e0251dad43ffb",
-      "size": 10587,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/129f835aa15f904bab30a0871d1e0251dad43ffb"
-    },
-    {
-      "path": "rustbook/eng/ch12-05-working-with-environment-variables.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "263c80cd0662669e590dc1c0af5c49c63deeda54",
-      "size": 9440,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/263c80cd0662669e590dc1c0af5c49c63deeda54"
-    },
-    {
-      "path": "rustbook/eng/ch12-06-writing-to-stderr-instead-of-stdout.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d017fa3245432c1b4a49d1b6451d017f5002363b",
-      "size": 4358,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d017fa3245432c1b4a49d1b6451d017f5002363b"
-    },
-    {
-      "path": "rustbook/eng/ch13-00-functional-features.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7011cb9f4a594e7e81cce06a2c4548a927a621d4",
-      "size": 1241,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7011cb9f4a594e7e81cce06a2c4548a927a621d4"
-    },
-    {
-      "path": "rustbook/eng/ch13-01-closures.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a1e1cec80e931fbf5ac03ab73efa4e8c051ef90a",
-      "size": 20821,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a1e1cec80e931fbf5ac03ab73efa4e8c051ef90a"
-    },
-    {
-      "path": "rustbook/eng/ch13-02-iterators.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "030ebf48ebb67b45deb299592fdc16052f208fd9",
-      "size": 10130,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/030ebf48ebb67b45deb299592fdc16052f208fd9"
-    },
-    {
-      "path": "rustbook/eng/ch13-03-improving-our-io-project.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e4deec5627b3bf0167163040efb52d43d1ff01ca",
-      "size": 8148,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e4deec5627b3bf0167163040efb52d43d1ff01ca"
-    },
-    {
-      "path": "rustbook/eng/ch13-04-performance.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "5d09bf2940f937d6d5bcfa9953f7103fa797f3fd",
-      "size": 4804,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5d09bf2940f937d6d5bcfa9953f7103fa797f3fd"
-    },
-    {
-      "path": "rustbook/eng/ch14-00-more-about-cargo.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8f8b8e51c7f25b01368ed8024363bca6324c19b8",
-      "size": 712,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8f8b8e51c7f25b01368ed8024363bca6324c19b8"
-    },
-    {
-      "path": "rustbook/eng/ch14-01-release-profiles.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "44391ae611f6822b7208e31c3529702e4d7b71ce",
-      "size": 2998,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/44391ae611f6822b7208e31c3529702e4d7b71ce"
-    },
-    {
-      "path": "rustbook/eng/ch14-02-publishing-to-crates-io.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d4d33babc414f09e8eacb5ea980c322386c1778b",
-      "size": 20846,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d4d33babc414f09e8eacb5ea980c322386c1778b"
-    },
-    {
-      "path": "rustbook/eng/ch14-03-cargo-workspaces.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "cbece82335574814ebc456ed0964d1a946f8ff73",
-      "size": 13444,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/cbece82335574814ebc456ed0964d1a946f8ff73"
-    },
-    {
-      "path": "rustbook/eng/ch14-04-installing-binaries.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "fd821f3a0e706fe3607e737638b8b09cfcd7c9c3",
-      "size": 2142,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/fd821f3a0e706fe3607e737638b8b09cfcd7c9c3"
-    },
-    {
-      "path": "rustbook/eng/ch14-05-extending-cargo.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bd228714aee6ecb492a5333e73d5ee299f46ff15",
-      "size": 974,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bd228714aee6ecb492a5333e73d5ee299f46ff15"
-    },
-    {
-      "path": "rustbook/eng/ch15-00-smart-pointers.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "9ecdcc83502e3de8c4d06e83a074e0ee4a003b0a",
-      "size": 3116,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/9ecdcc83502e3de8c4d06e83a074e0ee4a003b0a"
-    },
-    {
-      "path": "rustbook/eng/ch15-01-box.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "53e829a4c358499e127f430d96319ffd8d9bd78e",
-      "size": 12393,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/53e829a4c358499e127f430d96319ffd8d9bd78e"
-    },
-    {
-      "path": "rustbook/eng/ch15-02-deref.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "56db7c0a022240f57bf075bdd74148d78c59cdcd",
-      "size": 14086,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/56db7c0a022240f57bf075bdd74148d78c59cdcd"
-    },
-    {
-      "path": "rustbook/eng/ch15-03-drop.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "05ab86873bbdba7cc6651a910fb4737c6b1952f1",
-      "size": 7187,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/05ab86873bbdba7cc6651a910fb4737c6b1952f1"
-    },
-    {
-      "path": "rustbook/eng/ch15-04-rc.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "87a42eb1a564bcb9d9fcf4ec48e50a1c56f3b252",
-      "size": 8200,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/87a42eb1a564bcb9d9fcf4ec48e50a1c56f3b252"
-    },
-    {
-      "path": "rustbook/eng/ch15-05-interior-mutability.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7b5e825d7ed1f8fd2399a4d79080687e7830a5c5",
-      "size": 18015,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7b5e825d7ed1f8fd2399a4d79080687e7830a5c5"
-    },
-    {
-      "path": "rustbook/eng/ch15-06-reference-cycles.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "beb2bc21691d643aa7e1ddfb15e46f2a99283ad2",
-      "size": 15682,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/beb2bc21691d643aa7e1ddfb15e46f2a99283ad2"
-    },
-    {
-      "path": "rustbook/eng/ch16-00-concurrency.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "410f3e40da50c4bc7d84d11ae5319e176bc88358",
-      "size": 3005,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/410f3e40da50c4bc7d84d11ae5319e176bc88358"
-    },
-    {
-      "path": "rustbook/eng/ch16-01-threads.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "cfdd0c70660d30d85774fe5cfc5e931ab7f91322",
-      "size": 12392,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/cfdd0c70660d30d85774fe5cfc5e931ab7f91322"
-    },
-    {
-      "path": "rustbook/eng/ch16-02-message-passing.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c468b94c33ecc84aebb5816e6c767c9804f4eff7",
-      "size": 11563,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c468b94c33ecc84aebb5816e6c767c9804f4eff7"
-    },
-    {
-      "path": "rustbook/eng/ch16-03-shared-state.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a5f806c5bf1611250c660f135a4406ebc1d1f7f6",
-      "size": 12366,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a5f806c5bf1611250c660f135a4406ebc1d1f7f6"
-    },
-    {
-      "path": "rustbook/eng/ch16-04-extensible-concurrency-sync-and-send.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4586b8d2c4fba4417a10e34ea3036258f149d6c1",
-      "size": 4907,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4586b8d2c4fba4417a10e34ea3036258f149d6c1"
-    },
-    {
-      "path": "rustbook/eng/ch17-00-oop.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e20f6583f3e6e04b0f5185c75f09b57e5b586a94",
-      "size": 896,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e20f6583f3e6e04b0f5185c75f09b57e5b586a94"
-    },
-    {
-      "path": "rustbook/eng/ch17-01-what-is-oo.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4a11b7cc08c12eee3f27674568c1593b07b92c11",
-      "size": 8289,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4a11b7cc08c12eee3f27674568c1593b07b92c11"
-    },
-    {
-      "path": "rustbook/eng/ch17-02-trait-objects.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2d3fea24a18f9cae61ca67ccf80e1bb52d57d11e",
-      "size": 13052,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2d3fea24a18f9cae61ca67ccf80e1bb52d57d11e"
-    },
-    {
-      "path": "rustbook/eng/ch17-03-oo-design-patterns.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "13503ef02b1603ed85fdde1968c7b336f0432949",
-      "size": 26635,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/13503ef02b1603ed85fdde1968c7b336f0432949"
-    },
-    {
-      "path": "rustbook/eng/ch18-00-patterns.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "dc9290e331b6c57749dfb6505c8be8828d302cdc",
-      "size": 1438,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/dc9290e331b6c57749dfb6505c8be8828d302cdc"
-    },
-    {
-      "path": "rustbook/eng/ch18-01-all-the-places-for-patterns.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "58f5af573bc505d6aef3e35af31543124aa1f8f1",
-      "size": 10392,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/58f5af573bc505d6aef3e35af31543124aa1f8f1"
-    },
-    {
-      "path": "rustbook/eng/ch18-02-refutability.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c8ca8b5766c156e16eeba7258bf285da80e8e10e",
-      "size": 4263,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c8ca8b5766c156e16eeba7258bf285da80e8e10e"
-    },
-    {
-      "path": "rustbook/eng/ch18-03-pattern-syntax.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "aeaa766ff3da28893450ada54eec28321286f70b",
-      "size": 26825,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/aeaa766ff3da28893450ada54eec28321286f70b"
-    },
-    {
-      "path": "rustbook/eng/ch19-00-advanced-features.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a0db41fde46ac42796ed9a29a8fc365fecf1dffa",
-      "size": 1178,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a0db41fde46ac42796ed9a29a8fc365fecf1dffa"
-    },
-    {
-      "path": "rustbook/eng/ch19-01-unsafe-rust.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a8133ca8e55d156c3076112e1be4d1ea50592351",
-      "size": 22536,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a8133ca8e55d156c3076112e1be4d1ea50592351"
-    },
-    {
-      "path": "rustbook/eng/ch19-03-advanced-traits.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "789591357bc63bbe5175740c601c547b64c56c82",
-      "size": 21746,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/789591357bc63bbe5175740c601c547b64c56c82"
-    },
-    {
-      "path": "rustbook/eng/ch19-04-advanced-types.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2dfed23cca59b88dcb756afaf55a8ba0ec800146",
-      "size": 14170,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2dfed23cca59b88dcb756afaf55a8ba0ec800146"
-    },
-    {
-      "path": "rustbook/eng/ch19-05-advanced-functions-and-closures.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "88c46847d5828b226d4b41225d29bc952bfc4aac",
-      "size": 6023,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/88c46847d5828b226d4b41225d29bc952bfc4aac"
-    },
-    {
-      "path": "rustbook/eng/ch19-06-macros.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "f24a818c18df74fd046ac91ffb033a6d24e6b21b",
-      "size": 24556,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f24a818c18df74fd046ac91ffb033a6d24e6b21b"
-    },
-    {
-      "path": "rustbook/eng/ch20-00-final-project-a-web-server.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1004eaf3f10f4ca3c15f141708289544c988f8c2",
-      "size": 1556,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1004eaf3f10f4ca3c15f141708289544c988f8c2"
-    },
-    {
-      "path": "rustbook/eng/ch20-01-single-threaded.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "b980856fd2cb28321419be270bd69f4680df2a4d",
-      "size": 21475,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b980856fd2cb28321419be270bd69f4680df2a4d"
-    },
-    {
-      "path": "rustbook/eng/ch20-02-multithreaded.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "cec2272db507d866c2954fb95d4e6c2d9168a985",
-      "size": 32980,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/cec2272db507d866c2954fb95d4e6c2d9168a985"
-    },
-    {
-      "path": "rustbook/eng/ch20-03-graceful-shutdown-and-cleanup.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a28c79e5ad77300123394a072c087034568e31f9",
-      "size": 10611,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a28c79e5ad77300123394a072c087034568e31f9"
-    },
-    {
-      "path": "rustbook/eng/foreword.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2265e271421dc74621b91716c1f8fe756103208e",
-      "size": 2348,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2265e271421dc74621b91716c1f8fe756103208e"
-    },
-    {
-      "path": "rustbook/eng/img",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "4e6d966215eaf98554d731d1962d361746618ec8",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/4e6d966215eaf98554d731d1962d361746618ec8"
-    },
-    {
-      "path": "rustbook/eng/img/ferris",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "db0d26c58afa8091c2c62a19672a58c5cfcdc5af",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/db0d26c58afa8091c2c62a19672a58c5cfcdc5af"
-    },
-    {
-      "path": "rustbook/eng/img/ferris/does_not_compile.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "48b7b4d3a4006a6cc435826fbb80070269e58691",
-      "size": 6766,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/48b7b4d3a4006a6cc435826fbb80070269e58691"
-    },
-    {
-      "path": "rustbook/eng/img/ferris/not_desired_behavior.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "47f402455f1137328e8e080bc66a39dfc3edd9cc",
-      "size": 6311,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/47f402455f1137328e8e080bc66a39dfc3edd9cc"
-    },
-    {
-      "path": "rustbook/eng/img/ferris/panics.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "be55f5e09b294b6e4309861e0697420dd6cdc550",
-      "size": 6282,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/be55f5e09b294b6e4309861e0697420dd6cdc550"
-    },
-    {
-      "path": "rustbook/eng/img/trpl04-01.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "314f53ba12577f5438480df019dd873b3c080197",
-      "size": 5284,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/314f53ba12577f5438480df019dd873b3c080197"
-    },
-    {
-      "path": "rustbook/eng/img/trpl04-02.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "70d490f0bccf285ea756d25e1cf38f0f2d03c5d9",
-      "size": 7411,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/70d490f0bccf285ea756d25e1cf38f0f2d03c5d9"
-    },
-    {
-      "path": "rustbook/eng/img/trpl04-03.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7c153e23a31ba9f478e721dc562e2b6147ad2d8d",
-      "size": 10097,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7c153e23a31ba9f478e721dc562e2b6147ad2d8d"
-    },
-    {
-      "path": "rustbook/eng/img/trpl04-04.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a0513abd9066ad043a4c696781ab1a188a94c17a",
-      "size": 7504,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a0513abd9066ad043a4c696781ab1a188a94c17a"
-    },
-    {
-      "path": "rustbook/eng/img/trpl04-05.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "b4bf2ebee87600a7a1604e3fff95ed4034ce0c5a",
-      "size": 6598,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b4bf2ebee87600a7a1604e3fff95ed4034ce0c5a"
-    },
-    {
-      "path": "rustbook/eng/img/trpl04-06.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e64415fe430580c9f33f86ce7a4edf5995d3b4d4",
-      "size": 9670,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e64415fe430580c9f33f86ce7a4edf5995d3b4d4"
-    },
-    {
-      "path": "rustbook/eng/img/trpl14-01.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d7deaaf95222c9ee3cb21d5b10efb8947739650e",
-      "size": 123988,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d7deaaf95222c9ee3cb21d5b10efb8947739650e"
-    },
-    {
-      "path": "rustbook/eng/img/trpl14-02.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "121801b7632647fda2894e4323fa39e09987d722",
-      "size": 81694,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/121801b7632647fda2894e4323fa39e09987d722"
-    },
-    {
-      "path": "rustbook/eng/img/trpl14-03.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "cf5a15c41a38d710ac75381e509016fa38b288c1",
-      "size": 94569,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/cf5a15c41a38d710ac75381e509016fa38b288c1"
-    },
-    {
-      "path": "rustbook/eng/img/trpl14-04.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "dc1caaba9cf979368b44224f2276aa258d9cfe09",
-      "size": 241098,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/dc1caaba9cf979368b44224f2276aa258d9cfe09"
-    },
-    {
-      "path": "rustbook/eng/img/trpl15-01.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bbeef968a282b0e194f93a2fe56a144f6353d217",
-      "size": 3145,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bbeef968a282b0e194f93a2fe56a144f6353d217"
-    },
-    {
-      "path": "rustbook/eng/img/trpl15-02.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4454df8c38f2b01a544261adb2992543d0781b91",
-      "size": 1536,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4454df8c38f2b01a544261adb2992543d0781b91"
-    },
-    {
-      "path": "rustbook/eng/img/trpl15-03.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "dbc3b5cdb03bafc7a5e519ade4fa3e3d2549722f",
-      "size": 5447,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/dbc3b5cdb03bafc7a5e519ade4fa3e3d2549722f"
-    },
-    {
-      "path": "rustbook/eng/img/trpl15-04.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7285ae6735773c2adc460bbad9ba874dad0011be",
-      "size": 3824,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7285ae6735773c2adc460bbad9ba874dad0011be"
-    },
-    {
-      "path": "rustbook/eng/img/trpl20-01.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "19e2cbc0ac4a1fc44e39f9c470e44b81dfe2f1f4",
-      "size": 8491,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/19e2cbc0ac4a1fc44e39f9c470e44b81dfe2f1f4"
-    },
-    {
-      "path": "rustbook/eng/title-page.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "44741589bc3175b0f1e8b732cd0a75188d0abffc",
-      "size": 1053,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/44741589bc3175b0f1e8b732cd0a75188d0abffc"
-    },
-    {
-      "path": "rustbook/fr",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "2beb13a62396ff3df259cf849944629ca3ac3eaf",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/2beb13a62396ff3df259cf849944629ca3ac3eaf"
-    },
-    {
-      "path": "rustbook/fr/SUMMARY.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "5dcfa2064737ac0747859b93feecd7a8f26ad861",
-      "size": 8000,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5dcfa2064737ac0747859b93feecd7a8f26ad861"
-    },
-    {
-      "path": "rustbook/fr/appendix-00.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "951a8ac4cbeeeea4f4e6968325458d65a792af90",
-      "size": 265,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/951a8ac4cbeeeea4f4e6968325458d65a792af90"
-    },
-    {
-      "path": "rustbook/fr/appendix-01-keywords.mdx",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "0ce88bfbc2de54d0fae20a1e85f412b0b3ce8097",
-      "size": 4197,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0ce88bfbc2de54d0fae20a1e85f412b0b3ce8097"
-    },
-    {
-      "path": "rustbook/fr/ch00-00-introduction.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1418f191041a86e813332723befdffca53499f98",
-      "size": 23391,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1418f191041a86e813332723befdffca53499f98"
-    },
-    {
-      "path": "rustbook/fr/ch01-00-getting-started.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d9e2cff7d247ab2526e53e05827b29cb353fdde7",
-      "size": 709,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d9e2cff7d247ab2526e53e05827b29cb353fdde7"
-    },
-    {
-      "path": "rustbook/fr/ch01-01-installation.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7b07b11cce77fa2443ec80a269aeecd5ae96397b",
-      "size": 11585,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7b07b11cce77fa2443ec80a269aeecd5ae96397b"
-    },
-    {
-      "path": "rustbook/fr/ch01-02-hello-world.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "eb663f8a994ac10d3e01e6236d63d48e686061dc",
-      "size": 15901,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/eb663f8a994ac10d3e01e6236d63d48e686061dc"
-    },
-    {
-      "path": "rustbook/fr/ch01-03-hello-cargo.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2cf3157b08b8268e462b158a0e4bdd7f4be4d8c4",
-      "size": 23234,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2cf3157b08b8268e462b158a0e4bdd7f4be4d8c4"
-    },
-    {
-      "path": "rustbook/fr/ch02-00-guessing-game-tutorial.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "f45619e3f318b1c743d9873388e5f11e58088266",
-      "size": 86500,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f45619e3f318b1c743d9873388e5f11e58088266"
-    },
-    {
-      "path": "rustbook/fr/ch03-00-common-programming-concepts.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d4a39567ac049097c6d3d9f8dfcf12ba66f90022",
-      "size": 2666,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d4a39567ac049097c6d3d9f8dfcf12ba66f90022"
-    },
-    {
-      "path": "rustbook/fr/ch03-01-variables-and-mutability.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1e428a078afa08da7a7b2c403336fa17def85200",
-      "size": 20880,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1e428a078afa08da7a7b2c403336fa17def85200"
-    },
-    {
-      "path": "rustbook/fr/ch03-02-data-types.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bd39883bcf683acded7131ba8182264497c01411",
-      "size": 37504,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bd39883bcf683acded7131ba8182264497c01411"
-    },
-    {
-      "path": "rustbook/fr/ch03-03-how-functions-work.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2083deb2c792bf784caa630221a418200da63ac4",
-      "size": 23198,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2083deb2c792bf784caa630221a418200da63ac4"
-    },
-    {
-      "path": "rustbook/fr/ch03-04-comments.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1c692f2994ed11af3cc642d849f2f4f4b9a538f7",
-      "size": 3178,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1c692f2994ed11af3cc642d849f2f4f4b9a538f7"
-    },
-    {
-      "path": "rustbook/fr/ch03-05-control-flow.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "537d0612d0d779a19f53b7f230515fd7c255e44c",
-      "size": 36160,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/537d0612d0d779a19f53b7f230515fd7c255e44c"
-    },
-    {
-      "path": "rustbook/fr/ch04-00-understanding-ownership.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "9232cd3419a1219a1d778784229fb6da3fbac0bd",
-      "size": 969,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/9232cd3419a1219a1d778784229fb6da3fbac0bd"
-    },
-    {
-      "path": "rustbook/fr/ch04-01-what-is-ownership.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e6453ab3455d579d87b9377bc6928f12cadd7eab",
-      "size": 52386,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e6453ab3455d579d87b9377bc6928f12cadd7eab"
-    },
-    {
-      "path": "rustbook/fr/ch04-02-references-and-borrowing.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "0e1c8a963f2d8b2a54c84c511c18df600ed854e2",
-      "size": 24258,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0e1c8a963f2d8b2a54c84c511c18df600ed854e2"
-    },
-    {
-      "path": "rustbook/fr/ch04-03-slices.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "220f8a947fa3262e85f0ad0d96f6ed5bea73045f",
-      "size": 28427,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/220f8a947fa3262e85f0ad0d96f6ed5bea73045f"
-    },
-    {
-      "path": "rustbook/fr/ch05-00-structs.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8cb450c0ab389ab138d334d30bb44d322d134069",
-      "size": 1913,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8cb450c0ab389ab138d334d30bb44d322d134069"
-    },
-    {
-      "path": "rustbook/fr/ch05-01-defining-structs.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ca1d97b0ae5fa606ba737e35067064a32a218c40",
-      "size": 27609,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ca1d97b0ae5fa606ba737e35067064a32a218c40"
-    },
-    {
-      "path": "rustbook/fr/ch05-02-example-structs.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "9d2611c2bb328a12f3f27b1561edc67cae38cb43",
-      "size": 24755,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/9d2611c2bb328a12f3f27b1561edc67cae38cb43"
-    },
-    {
-      "path": "rustbook/fr/ch05-03-method-syntax.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "f53e4d0edbd82573ca1b4331b2cc213ce4e22645",
-      "size": 25430,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f53e4d0edbd82573ca1b4331b2cc213ce4e22645"
-    },
-    {
-      "path": "rustbook/fr/ch06-00-enums.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "09074c63584d2cf79ab82e4addc169b21879e7dd",
-      "size": 2063,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/09074c63584d2cf79ab82e4addc169b21879e7dd"
-    },
-    {
-      "path": "rustbook/fr/ch06-01-defining-an-enum.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "34f52804c709b68135865002dda96d8fcec571e7",
-      "size": 34746,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/34f52804c709b68135865002dda96d8fcec571e7"
-    },
-    {
-      "path": "rustbook/fr/ch06-02-match.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "5aa47825cff50c5bafd5e9a68c380ac4d2b1cddf",
-      "size": 27115,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5aa47825cff50c5bafd5e9a68c380ac4d2b1cddf"
-    },
-    {
-      "path": "rustbook/fr/ch06-03-if-let.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "225055a5588b65868a0add577cfe37451df1315c",
-      "size": 8436,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/225055a5588b65868a0add577cfe37451df1315c"
-    },
-    {
-      "path": "rustbook/fr/ch07-00-managing-growing-projects-with-packages-crates-and-modules.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1b58db39be5e95d3c228b6f128e57dc708f8e25d",
-      "size": 6789,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1b58db39be5e95d3c228b6f128e57dc708f8e25d"
-    },
-    {
-      "path": "rustbook/fr/ch07-01-packages-and-crates.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "602500c8c06a9ca96e4677dfaebb6ae439d9cee2",
-      "size": 7006,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/602500c8c06a9ca96e4677dfaebb6ae439d9cee2"
-    },
-    {
-      "path": "rustbook/fr/ch07-02-defining-modules-to-control-scope-and-privacy.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bffa7415cb1add404484db7a5403caf636768509",
-      "size": 9569,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bffa7415cb1add404484db7a5403caf636768509"
-    },
-    {
-      "path": "rustbook/fr/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a2996630647a9ab80dad1757695b13004b43c5f6",
-      "size": 28996,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a2996630647a9ab80dad1757695b13004b43c5f6"
-    },
-    {
-      "path": "rustbook/fr/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "825df1b3c00366e424f72f7d6c9ecb49a2b834c3",
-      "size": 27546,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/825df1b3c00366e424f72f7d6c9ecb49a2b834c3"
-    },
-    {
-      "path": "rustbook/fr/ch07-05-separating-modules-into-different-files.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e2a63fd485982be9e41cef7cf70b6a77d1eb2d77",
-      "size": 7466,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e2a63fd485982be9e41cef7cf70b6a77d1eb2d77"
-    },
-    {
-      "path": "rustbook/fr/ch08-00-common-collections.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "88c1d297dbc21856553ec2ca77bbb7e462c48152",
-      "size": 3075,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/88c1d297dbc21856553ec2ca77bbb7e462c48152"
-    },
-    {
-      "path": "rustbook/fr/ch08-01-vectors.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bd8bbb1704eca1172158b98ca02dd147867358e5",
-      "size": 25264,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bd8bbb1704eca1172158b98ca02dd147867358e5"
-    },
-    {
-      "path": "rustbook/fr/ch08-02-strings.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "008fb032a6e8aefe0c8b1787f4b6bf397755646a",
-      "size": 38958,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/008fb032a6e8aefe0c8b1787f4b6bf397755646a"
-    },
-    {
-      "path": "rustbook/fr/ch08-03-hash-maps.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "724508bb3e1cd7530a6ef4764c574875166d9ce4",
-      "size": 27195,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/724508bb3e1cd7530a6ef4764c574875166d9ce4"
-    },
-    {
-      "path": "rustbook/fr/ch09-00-error-handling.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "269a5b00276903e194c2f7ef12fbbb52c75eb356",
-      "size": 3195,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/269a5b00276903e194c2f7ef12fbbb52c75eb356"
-    },
-    {
-      "path": "rustbook/fr/ch09-01-unrecoverable-errors-with-panic.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "59e6e648977fa705af4a3d86facc3022294f608d",
-      "size": 17472,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/59e6e648977fa705af4a3d86facc3022294f608d"
-    },
-    {
-      "path": "rustbook/fr/ch09-02-recoverable-errors-with-result.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ca57b88d9a9645630adcbeb715ab0bcf73f87797",
-      "size": 56489,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ca57b88d9a9645630adcbeb715ab0bcf73f87797"
-    },
-    {
-      "path": "rustbook/fr/ch09-03-to-panic-or-not-to-panic.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "298a63ec11b923bbb2755246b8f0fd7ee8581515",
-      "size": 27660,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/298a63ec11b923bbb2755246b8f0fd7ee8581515"
-    },
-    {
-      "path": "rustbook/fr/ch10-00-generics.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "0b58f54fb2c7d4bc3ae7fd6f27f126e88f316a91",
-      "size": 13316,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0b58f54fb2c7d4bc3ae7fd6f27f126e88f316a91"
-    },
-    {
-      "path": "rustbook/fr/ch10-01-syntax.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "6e6d3dfd1152606cabb63b1f134fb60a29963a8b",
-      "size": 33451,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6e6d3dfd1152606cabb63b1f134fb60a29963a8b"
-    },
-    {
-      "path": "rustbook/fr/ch10-02-traits.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8b9d0d45032eb3143ae3f5a576ad9a7104c87fdb",
-      "size": 50052,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8b9d0d45032eb3143ae3f5a576ad9a7104c87fdb"
-    },
-    {
-      "path": "rustbook/fr/ch10-03-lifetime-syntax.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "197a874197a3d5bd99d6a7c2b44b1f592adec594",
-      "size": 69048,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/197a874197a3d5bd99d6a7c2b44b1f592adec594"
-    },
-    {
-      "path": "rustbook/fr/ch11-00-testing.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "b151ca16a3efbd74cad7e6b0f116eaa2dbc95ba4",
-      "size": 4549,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b151ca16a3efbd74cad7e6b0f116eaa2dbc95ba4"
-    },
-    {
-      "path": "rustbook/fr/ch11-01-writing-tests.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "baa3c9c86f28b4cff0472f87f193381f9f55b23d",
-      "size": 54824,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/baa3c9c86f28b4cff0472f87f193381f9f55b23d"
-    },
-    {
-      "path": "rustbook/fr/ch11-02-running-tests.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a51a5140d888a1fe8fe89acbb5d709455b8724eb",
-      "size": 17850,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a51a5140d888a1fe8fe89acbb5d709455b8724eb"
-    },
-    {
-      "path": "rustbook/fr/ch11-03-test-organization.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1bd42e53a8f5c7b74cbdf7dc2a09e50b02635d98",
-      "size": 27514,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1bd42e53a8f5c7b74cbdf7dc2a09e50b02635d98"
-    },
-    {
-      "path": "rustbook/fr/ch12-00-an-io-project.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "0879536c2d3dff39120d587bd4bff59d94e4b171",
-      "size": 5903,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0879536c2d3dff39120d587bd4bff59d94e4b171"
-    },
-    {
-      "path": "rustbook/fr/ch12-01-accepting-command-line-arguments.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a126a7cdc334f559b7c19cf01095b6e204d24191",
-      "size": 13988,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a126a7cdc334f559b7c19cf01095b6e204d24191"
-    },
-    {
-      "path": "rustbook/fr/ch12-02-reading-a-file.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c4b4a394ce613db759df1730fa2f0b1880bea575",
-      "size": 5629,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c4b4a394ce613db759df1730fa2f0b1880bea575"
-    },
-    {
-      "path": "rustbook/fr/ch12-03-improving-error-handling-and-modularity.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "13a34d4b916f64974e8dfcfb6758581aefd79496",
-      "size": 54939,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/13a34d4b916f64974e8dfcfb6758581aefd79496"
-    },
-    {
-      "path": "rustbook/fr/ch12-04-testing-the-librarys-functionality.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "62f3b540c83303715a0234689838b8e9c3549745",
-      "size": 23561,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/62f3b540c83303715a0234689838b8e9c3549745"
-    },
-    {
-      "path": "rustbook/fr/ch12-05-working-with-environment-variables.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "92d4cee1164d91a6f7ba18b48365854a1b06624b",
-      "size": 21563,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/92d4cee1164d91a6f7ba18b48365854a1b06624b"
-    },
-    {
-      "path": "rustbook/fr/ch12-06-writing-to-stderr-instead-of-stdout.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "41580a434b0f84924dc908f3e9a4e8eba98ad74e",
-      "size": 10113,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/41580a434b0f84924dc908f3e9a4e8eba98ad74e"
-    },
-    {
-      "path": "rustbook/fr/ch13-00-functional-features.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "eb4ff0d09d45764b5c401b1fe40b14f3f7b0d714",
-      "size": 2894,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/eb4ff0d09d45764b5c401b1fe40b14f3f7b0d714"
-    },
-    {
-      "path": "rustbook/fr/ch13-01-closures.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "392e5335519ddc09f3ed939cebd8823037fe3cb9",
-      "size": 59731,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/392e5335519ddc09f3ed939cebd8823037fe3cb9"
-    },
-    {
-      "path": "rustbook/fr/ch13-02-iterators.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2738deb2059988155a7ba5f9e478a2d15e1d2f80",
-      "size": 33109,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2738deb2059988155a7ba5f9e478a2d15e1d2f80"
-    },
-    {
-      "path": "rustbook/fr/ch13-03-improving-our-io-project.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "1ac915f5c9bd07bbd2e10428c3eae361a770dd96",
-      "size": 17211,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/1ac915f5c9bd07bbd2e10428c3eae361a770dd96"
-    },
-    {
-      "path": "rustbook/fr/ch13-04-performance.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "49f099f298c13babdd5f23651955382c2697bff6",
-      "size": 10648,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/49f099f298c13babdd5f23651955382c2697bff6"
-    },
-    {
-      "path": "rustbook/fr/ch14-00-more-about-cargo.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "47fa7b0626b232fdccaa6facb698d85f6041e359",
-      "size": 1615,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/47fa7b0626b232fdccaa6facb698d85f6041e359"
-    },
-    {
-      "path": "rustbook/fr/ch14-01-release-profiles.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d583cadba31ad1dcb1a1d4a7ac1161aaf0343aea",
-      "size": 6815,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d583cadba31ad1dcb1a1d4a7ac1161aaf0343aea"
-    },
-    {
-      "path": "rustbook/fr/ch14-02-publishing-to-crates-io.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8395c85b35aace6603054d78b53b4448c71c02f2",
-      "size": 45999,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8395c85b35aace6603054d78b53b4448c71c02f2"
-    },
-    {
-      "path": "rustbook/fr/ch14-03-cargo-workspaces.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c07cd12567eefa51efaebf4368fc8ec898f8ca5b",
-      "size": 27848,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c07cd12567eefa51efaebf4368fc8ec898f8ca5b"
-    },
-    {
-      "path": "rustbook/fr/ch14-04-installing-binaries.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d0702e733fbea4f362445dee8404ed9798b28946",
-      "size": 4487,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d0702e733fbea4f362445dee8404ed9798b28946"
-    },
-    {
-      "path": "rustbook/fr/ch14-05-extending-cargo.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2f66d89030c11cebe4fb0614f8da9f4667055083",
-      "size": 2217,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2f66d89030c11cebe4fb0614f8da9f4667055083"
-    },
-    {
-      "path": "rustbook/fr/ch15-00-smart-pointers.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "991e780d3ff76555e3a8e210e5a308878a20ab73",
-      "size": 7334,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/991e780d3ff76555e3a8e210e5a308878a20ab73"
-    },
-    {
-      "path": "rustbook/fr/ch15-01-box.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "caae2da67538a3003525c70807a25ba663247879",
-      "size": 28045,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/caae2da67538a3003525c70807a25ba663247879"
-    },
-    {
-      "path": "rustbook/fr/ch15-02-deref.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "8e07880af12e8049f1a70236c0a6ce81c4906af8",
-      "size": 31315,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/8e07880af12e8049f1a70236c0a6ce81c4906af8"
-    },
-    {
-      "path": "rustbook/fr/ch15-03-drop.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "a2f06bc9773c50f0059a38c23fe18b407bfa0039",
-      "size": 15827,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/a2f06bc9773c50f0059a38c23fe18b407bfa0039"
-    },
-    {
-      "path": "rustbook/fr/ch15-04-rc.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "92413a8caab515fb54f3ab5cb8c3a25a6c8bbd28",
-      "size": 18495,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/92413a8caab515fb54f3ab5cb8c3a25a6c8bbd28"
-    },
-    {
-      "path": "rustbook/fr/ch15-05-interior-mutability.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "133e50f2349b50d94fbc6e123e221616449a6316",
-      "size": 39650,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/133e50f2349b50d94fbc6e123e221616449a6316"
-    },
-    {
-      "path": "rustbook/fr/ch15-06-reference-cycles.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c0b1e05c45e8991f6c0c95f3f3d4a13b52bb32f2",
-      "size": 35147,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c0b1e05c45e8991f6c0c95f3f3d4a13b52bb32f2"
-    },
-    {
-      "path": "rustbook/fr/ch16-00-concurrency.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "924c71aefd8f0d2fa8e7b829221d785ae9dbf123",
-      "size": 6824,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/924c71aefd8f0d2fa8e7b829221d785ae9dbf123"
-    },
-    {
-      "path": "rustbook/fr/ch16-01-threads.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "6c9a81db4bb31abb838d76ba38fd4f59b7388796",
-      "size": 27524,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6c9a81db4bb31abb838d76ba38fd4f59b7388796"
-    },
-    {
-      "path": "rustbook/fr/ch16-02-message-passing.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "42c00713fa3280b15356550ac3b738cadf38a6c3",
-      "size": 25408,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/42c00713fa3280b15356550ac3b738cadf38a6c3"
-    },
-    {
-      "path": "rustbook/fr/ch16-03-shared-state.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c63a8a6176b9996b5710d5fc6efe8da54453a92d",
-      "size": 26735,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c63a8a6176b9996b5710d5fc6efe8da54453a92d"
-    },
-    {
-      "path": "rustbook/fr/ch16-04-extensible-concurrency-sync-and-send.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "550e5cc24a5da30a37f5028db21f034d90f91e55",
-      "size": 11321,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/550e5cc24a5da30a37f5028db21f034d90f91e55"
-    },
-    {
-      "path": "rustbook/fr/ch17-00-oop.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4414e2d81e222a440acab2ce362e0e33b28807d0",
-      "size": 1854,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4414e2d81e222a440acab2ce362e0e33b28807d0"
-    },
-    {
-      "path": "rustbook/fr/ch17-01-what-is-oo.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ca607149c3895509d4211a7530a62cdaf0bdfdb8",
-      "size": 18000,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ca607149c3895509d4211a7530a62cdaf0bdfdb8"
-    },
-    {
-      "path": "rustbook/fr/ch17-02-trait-objects.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "b295ee7c66ee17c0644c78437d40ebf1687c107b",
-      "size": 29144,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b295ee7c66ee17c0644c78437d40ebf1687c107b"
-    },
-    {
-      "path": "rustbook/fr/ch17-03-oo-design-patterns.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "521f5a904d2cbd3c1940d7a491088c90c2d2ec11",
-      "size": 57073,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/521f5a904d2cbd3c1940d7a491088c90c2d2ec11"
-    },
-    {
-      "path": "rustbook/fr/ch18-00-patterns.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "b66200dae3a5aa354e7ba596021bb2c63ecf30cc",
-      "size": 2999,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/b66200dae3a5aa354e7ba596021bb2c63ecf30cc"
-    },
-    {
-      "path": "rustbook/fr/ch18-01-all-the-places-for-patterns.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e3689c06f14c615150efd80ab03d2065e3359dec",
-      "size": 22664,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e3689c06f14c615150efd80ab03d2065e3359dec"
-    },
-    {
-      "path": "rustbook/fr/ch18-02-refutability.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "2a69131f6c6ba3d3c0facbc229f1e4f6821ac6d8",
-      "size": 9630,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/2a69131f6c6ba3d3c0facbc229f1e4f6821ac6d8"
-    },
-    {
-      "path": "rustbook/fr/ch18-03-pattern-syntax.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e8b18368116e573b8d6bbf735bc0c230c8a0215c",
-      "size": 60744,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e8b18368116e573b8d6bbf735bc0c230c8a0215c"
-    },
-    {
-      "path": "rustbook/fr/ch19-00-advanced-features.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ff08e2642de5044e88acbe4da69babde70557828",
-      "size": 2790,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ff08e2642de5044e88acbe4da69babde70557828"
-    },
-    {
-      "path": "rustbook/fr/ch19-01-unsafe-rust.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ecda7777ba0836a7f0a84872261a6a69cfd2b70b",
-      "size": 50670,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ecda7777ba0836a7f0a84872261a6a69cfd2b70b"
-    },
-    {
-      "path": "rustbook/fr/ch19-03-advanced-traits.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "d8f3621b9555190104f2482dd29d5c3be753e92a",
-      "size": 47147,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/d8f3621b9555190104f2482dd29d5c3be753e92a"
-    },
-    {
-      "path": "rustbook/fr/ch19-04-advanced-types.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "665ba729886b24b862d4263aa807265bf12df86c",
-      "size": 30923,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/665ba729886b24b862d4263aa807265bf12df86c"
-    },
-    {
-      "path": "rustbook/fr/ch19-05-advanced-functions-and-closures.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4bdeb51ce1f7cfb1c0fb869754e7f0fb2d4d1440",
-      "size": 12288,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4bdeb51ce1f7cfb1c0fb869754e7f0fb2d4d1440"
-    },
-    {
-      "path": "rustbook/fr/ch19-06-macros.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "ff9cc465055a45105445eba3682871093ef4da56",
-      "size": 54926,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/ff9cc465055a45105445eba3682871093ef4da56"
-    },
-    {
-      "path": "rustbook/fr/ch20-00-final-project-a-web-server.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "f3529422d169b71c355184fc12cb5546281b1a18",
-      "size": 3531,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f3529422d169b71c355184fc12cb5546281b1a18"
-    },
-    {
-      "path": "rustbook/fr/ch20-01-single-threaded.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4157c67c959e2b69e62b08de413a5d8d3097b413",
-      "size": 47205,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4157c67c959e2b69e62b08de413a5d8d3097b413"
-    },
-    {
-      "path": "rustbook/fr/ch20-02-multithreaded.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bb71284ef5bc0adafa8a182d289aee3f1ec0c52c",
-      "size": 71943,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bb71284ef5bc0adafa8a182d289aee3f1ec0c52c"
-    },
-    {
-      "path": "rustbook/fr/ch20-03-graceful-shutdown-and-cleanup.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e35ab1481a570787d585367c37451db17cdd6a3a",
-      "size": 28159,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e35ab1481a570787d585367c37451db17cdd6a3a"
-    },
-    {
-      "path": "rustbook/fr/foreword.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "5650b7ff925d1d7d48e97111a2eed6077b087f24",
-      "size": 5422,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5650b7ff925d1d7d48e97111a2eed6077b087f24"
-    },
-    {
-      "path": "rustbook/fr/github-markdown-guide.mdx",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "0ce88bfbc2de54d0fae20a1e85f412b0b3ce8097",
-      "size": 4197,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0ce88bfbc2de54d0fae20a1e85f412b0b3ce8097"
-    },
-    {
-      "path": "rustbook/fr/img",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "49381215e088b4e2d83e63082a1674180d602778",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/49381215e088b4e2d83e63082a1674180d602778"
-    },
-    {
-      "path": "rustbook/fr/img/ferris",
-      "mode": "040000",
-      "type": "tree",
-      "sha": "db0d26c58afa8091c2c62a19672a58c5cfcdc5af",
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/trees/db0d26c58afa8091c2c62a19672a58c5cfcdc5af"
-    },
-    {
-      "path": "rustbook/fr/img/ferris/does_not_compile.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "48b7b4d3a4006a6cc435826fbb80070269e58691",
-      "size": 6766,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/48b7b4d3a4006a6cc435826fbb80070269e58691"
-    },
-    {
-      "path": "rustbook/fr/img/ferris/not_desired_behavior.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "47f402455f1137328e8e080bc66a39dfc3edd9cc",
-      "size": 6311,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/47f402455f1137328e8e080bc66a39dfc3edd9cc"
-    },
-    {
-      "path": "rustbook/fr/img/ferris/panics.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "be55f5e09b294b6e4309861e0697420dd6cdc550",
-      "size": 6282,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/be55f5e09b294b6e4309861e0697420dd6cdc550"
-    },
-    {
-      "path": "rustbook/fr/img/trpl04-01.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c47e21dfc39305d86ab47e6fef0be487fd3ce574",
-      "size": 5483,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c47e21dfc39305d86ab47e6fef0be487fd3ce574"
-    },
-    {
-      "path": "rustbook/fr/img/trpl04-02.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "f336171be404c96bc8e483ddaccf3896bde3dca0",
-      "size": 8040,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/f336171be404c96bc8e483ddaccf3896bde3dca0"
-    },
-    {
-      "path": "rustbook/fr/img/trpl04-03.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "29bea36bef87dd287e63d5cf0ec162823ed3a7dc",
-      "size": 10485,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/29bea36bef87dd287e63d5cf0ec162823ed3a7dc"
-    },
-    {
-      "path": "rustbook/fr/img/trpl04-04.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "893f22404a06615c0d66383a004da543034a6e7b",
-      "size": 8135,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/893f22404a06615c0d66383a004da543034a6e7b"
-    },
-    {
-      "path": "rustbook/fr/img/trpl04-05.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "411c926f22f358a7ba2525b732d74b4749171972",
-      "size": 6852,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/411c926f22f358a7ba2525b732d74b4749171972"
-    },
-    {
-      "path": "rustbook/fr/img/trpl04-06.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "20ab84ea93461d2d65dce094edcd74e3a3630da5",
-      "size": 10009,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/20ab84ea93461d2d65dce094edcd74e3a3630da5"
-    },
-    {
-      "path": "rustbook/fr/img/trpl14-01.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "5e933271d7fad7850f15597342dfcc11c579e7b1",
-      "size": 40586,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/5e933271d7fad7850f15597342dfcc11c579e7b1"
-    },
-    {
-      "path": "rustbook/fr/img/trpl14-02.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "91a8a56f9bb652997b56e63597df3fd2218d5b45",
-      "size": 31229,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/91a8a56f9bb652997b56e63597df3fd2218d5b45"
-    },
-    {
-      "path": "rustbook/fr/img/trpl14-03.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "fe70907e43196ad4dec8ab3ed4bafb7d67ee3ba4",
-      "size": 27815,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/fe70907e43196ad4dec8ab3ed4bafb7d67ee3ba4"
-    },
-    {
-      "path": "rustbook/fr/img/trpl14-04.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bbb5d84ee45bdf37abe6ada7ff0f6bc36f9b42a2",
-      "size": 36427,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bbb5d84ee45bdf37abe6ada7ff0f6bc36f9b42a2"
-    },
-    {
-      "path": "rustbook/fr/img/trpl15-01.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "e5ae50baf46992e5397fe339055e298fe69bdc6d",
-      "size": 3332,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/e5ae50baf46992e5397fe339055e298fe69bdc6d"
-    },
-    {
-      "path": "rustbook/fr/img/trpl15-02.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "c811d858cd3d7adccdfa33815b30d0eebcecc830",
-      "size": 1604,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/c811d858cd3d7adccdfa33815b30d0eebcecc830"
-    },
-    {
-      "path": "rustbook/fr/img/trpl15-03.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "7d8b5b1ac98098f234a5b6674cc14ca117b75080",
-      "size": 5651,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/7d8b5b1ac98098f234a5b6674cc14ca117b75080"
-    },
-    {
-      "path": "rustbook/fr/img/trpl15-04.svg",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "4a39fc48c8889b8d54c70fb65a24cddb7873817b",
-      "size": 3356,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/4a39fc48c8889b8d54c70fb65a24cddb7873817b"
-    },
-    {
-      "path": "rustbook/fr/img/trpl20-01.png",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "74bbe1eaa0ebb8920ba38ea138269e635d3c111d",
-      "size": 8023,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/74bbe1eaa0ebb8920ba38ea138269e635d3c111d"
-    },
-    {
-      "path": "rustbook/fr/title-page.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "bca843ead66aee13640e1ff025ce53d507bb3dae",
-      "size": 1904,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/bca843ead66aee13640e1ff025ce53d507bb3dae"
-    },
-    {
-      "path": "rustbook/fr/translation-terms.md",
-      "mode": "100644",
-      "type": "blob",
-      "sha": "3c91826e950cb2d18079fc75d27932ea15ff92bf",
-      "size": 11942,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/3c91826e950cb2d18079fc75d27932ea15ff92bf"
-    },
-    {
       "path": "tailwind.config.ts",
       "mode": "100644",
       "type": "blob",
@@ -2821,9 +682,9 @@
       "path": "tree.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "6f69ea33861484cbcfed0134fc22947bb7f4fc49",
-      "size": 861694,
-      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/6f69ea33861484cbcfed0134fc22947bb7f4fc49"
+      "sha": "0bd0b8ab664e06fdf347de18aa040ce99112483e",
+      "size": 109523,
+      "url": "https://api.github.com/repos/jhonny-jane-w3l/Context/git/blobs/0bd0b8ab664e06fdf347de18aa040ce99112483e"
     },
     {
       "path": "tsconfig.json",
