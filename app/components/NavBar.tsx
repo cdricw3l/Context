@@ -113,7 +113,8 @@ const NavBar: React.FC = () => {
   };
 
   useEffect(() => {
-    if (plan === 'free' && fileDetails.length > 3) {
+    if (plan === 'free' && fileDetails.length > 4) {
+      fileDetails.pop(); // Remove the last file if the user is on a free plan and exceeds the limit
       setShowModal(true); // Show modal if the user is on a free plan and exceeds the limit
     }
   }, [fileDetails.length, plan, setShowModal]);

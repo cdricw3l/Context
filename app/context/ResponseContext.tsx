@@ -1,5 +1,3 @@
-// app/context/ResponseContext.tsx
-
 'use client';
 
 import React, { createContext, useContext, useState, Dispatch, SetStateAction } from 'react';

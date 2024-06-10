@@ -65,7 +65,7 @@ const TreeBlock: React.FC<TreeBlockProps> = ({
           onClick={handleAggregateAndCopy} 
           className="p-2 bg-gradient-to-r from-blue-500 to-transparent bg-red-500 hover:bg-blue-600 text-white rounded"
         >
-          Aggregate and Copy
+          Create Context
         </button>
       </div>
       {copySuccess && <p className="text-green-500 mt-2">Data copied to clipboard!</p>}
