@@ -38,3 +38,5 @@ export async function createUser(email: string, password: string) {
     throw error; // Relancer l'erreur pour une gestion ultérieure
   }
 }
+
+

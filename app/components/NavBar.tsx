@@ -11,6 +11,7 @@ import { fetchRepoTree } from '../utils/apiUtils';
 import { generateTextTree } from '../utils/treeUtils';
 import Footer from './Footer'; // Assurez-vous d'importer le composant Footer
 import path from 'path';
+import PaymentModal from './PaymentModal'; // Import the PaymentModal component
 
 const NavBar: React.FC = () => {
   const [repoUrl, setRepoUrl] = useState('');
@@ -19,7 +20,7 @@ const NavBar: React.FC = () => {
   const [defaultBranch, setDefaultBranch] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState<boolean>(false);
-  const { setFileDetails, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, setIsTextView, messages, fileDetails, textTree, setTextTree } = useResponse();
+  const { setFileDetails, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, plan, setShowModal,showModal, messages, fileDetails, textTree, setTextTree } = useResponse();
   const [aggregationSuccess, setAggregationSuccess] = useState(false);
 
   const fetchTree = async () => {
@@ -111,8 +112,16 @@ const NavBar: React.FC = () => {
       .catch(() => setAggregationSuccess(false));
   };
 
+  useEffect(() => {
+    if (plan === 'free' && fileDetails.length > 3) {
+      setShowModal(true); // Show modal if the user is on a free plan and exceeds the limit
+    }
+  }, [fileDetails.length, plan, setShowModal]);
+
+
   return (
     <div className="flex flex-col h-full min-h-screen">
+      {showModal && <PaymentModal onClose={() => setShowModal(false)} />}
       <div className="flex flex-col flex-grow p-4">
         <div className="flex justify-center space-x-5 p-4">
           <Logo />

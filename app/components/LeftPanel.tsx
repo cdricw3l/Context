@@ -1,14 +1,13 @@
 // app/components/LeftPanel.tsx
-
-
 import React, { useState } from 'react';
 import { useResponse } from '../context/ResponseContext';
 import FileContentDetails from './FileContentDetails';
 import Tchat from './Tchat';
 import Sprech from './Sprech';
+import PaymentModal from './PaymentModal'; // Import the PaymentModal component
 
 export default function LeftPanel() {
-  const { fileDetails, setFileDetails, isMinimizedView, setIsMinimizedView } = useResponse();
+  const { fileDetails, setFileDetails, isMinimizedView, setIsMinimizedView} = useResponse();
   const [showChatPanel, setShowChatPanel] = useState(false);
   const [messages, setMessages] = useState<string[]>([]);
   const [currentMessage, setCurrentMessage] = useState<string>('');
@@ -58,6 +57,7 @@ export default function LeftPanel() {
     setMessages([]);
   };
 
+  
   return (
     <div className="flex flex-col h-screen">
       <div className="flex justify-between items-center p-4 space-y-2 text-white">

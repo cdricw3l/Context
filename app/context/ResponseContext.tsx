@@ -38,6 +38,10 @@ interface ResponseContextProps {
   setIsMinimizedView: React.Dispatch<React.SetStateAction<boolean>>;
   aggregatedContent: Record<string, string>;
   setAggregatedContent: React.Dispatch<React.SetStateAction<Record<string, string>>>;
+  plan: string; // add plan to context
+  setPlan: React.Dispatch<React.SetStateAction<string>>;
+  showModal: boolean; // add showModal to context
+  setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -66,6 +70,8 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [extension, setExtension] = useState<string>('');
   const [isMinimizedView, setIsMinimizedView] = useState(false);
   const [aggregatedContent, setAggregatedContent] = useState<Record<string, string>>({});
+  const [plan, setPlan] = useState('free'); // default plan
+  const [showModal, setShowModal] = useState(false); // default modal state
 
   return (
     <ResponseContext.Provider
@@ -100,6 +106,10 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setIsMinimizedView,
         aggregatedContent,
         setAggregatedContent,
+        plan,
+        setPlan,
+        showModal,
+        setShowModal,
       }}
     >
       {children}
