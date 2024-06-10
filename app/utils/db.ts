@@ -37,15 +37,4 @@ export async function createUser(email: string, password: string) {
   }
 }
 
-export async function updateUserPlan(userId: string, plan: string) {
-  try {
-    await prisma.subscription.upsert({
-      where: { userId },
-      update: { plan },
-      create: { userId, plan },
-    });
-  } catch (error) {
-    console.error("Error updating user plan:", error);
-    throw error; // Relancer l'erreur pour une gestion ultérieure
-  }
-}
+
