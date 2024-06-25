@@ -16,6 +16,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 function AuthenticatedLayout({ children }: { children: React.ReactNode }) {
+  
   const { data: session, status } = useSession();
   console.log(session, status);
   if (status === "loading") {

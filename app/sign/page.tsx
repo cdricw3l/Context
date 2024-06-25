@@ -2,49 +2,15 @@
 
 import { signIn } from "next-auth/react";
 import { useState } from "react";
+import SignIn from "../components/SignIn";
 
-const SignIn = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    const result = await signIn('credentials', {
-      redirect: false,
-      email,
-      password,
-    });
-
-    if (result?.error) {
-      console.error(result.error);
-    } else {
-      // Redirection or any other logic after successful sign in
-    }
-  };
-
+const SignInPage = () => {  
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Email:
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-      </label>
-      <label>
-        Password:
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-      </label>
-      <button type="submit">Sign In</button>
-    </form>
+    <SignIn></SignIn>
   );
-};
 
-export default SignIn;
+}
+
+  
+
+export default SignInPage;

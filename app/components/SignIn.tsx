@@ -1,18 +1,27 @@
-// app/components/SignIn.tsx
-'use client';
-
 import { signIn } from 'next-auth/react';
 import { useState } from 'react';
 
 const SignIn = () => {
   const [isRegistering, setIsRegistering] = useState(false);
+  const [attemptCount, setAttemptCount] = useState(0);
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSignIn = async (event: React.FormEvent) => {
     event.preventDefault();
     const formData = new FormData(event.target as HTMLFormElement);
     const email = formData.get('email') as string;
     const password = formData.get('password') as string;
-    await signIn('credentials', { email, password, callbackUrl: '/' });
+
+    const rep = await signIn('credentials', { email, password, callbackUrl: '/' });
+    if (!rep) {
+      const newAttemptCount = attemptCount + 1;
+      setAttemptCount(newAttemptCount);
+      setErrorMessage('Sign in failed. Please try again.');
+      console.log('attemptCount:', newAttemptCount);
+      if (attemptCount >= 3) {
+        window.location.href = '/error';
+      }
+    } 
   };
 
   const handleRegister = async (event: React.FormEvent) => {
@@ -30,7 +39,7 @@ const SignIn = () => {
     if (response.ok) {
       await signIn('credentials', { email, password, callbackUrl: '/' });
     } else {
-      console.error('Registration failed');
+      setErrorMessage('Registration failed. Please try again.');
     }
   };
 
@@ -38,6 +47,7 @@ const SignIn = () => {
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-500">
       <form onSubmit={isRegistering ? handleRegister : handleSignIn} className="bg-white p-6 rounded shadow-md">
         <h2 className="text-2xl text-blue-500 mb-4">{isRegistering ? 'Register' : 'Sign In'}</h2>
+        {errorMessage && <p className="text-red-500">{errorMessage}</p>}
         <div className="mb-4">
           <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
           <input type="email" name="email" id="email" required className="text-blue-500 mt-1 p-2 w-full border rounded" />

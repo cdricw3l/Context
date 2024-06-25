@@ -96,6 +96,7 @@ export default async function handler(
       defaultBranch,
     });
   } catch (error: any) {
+    console.log(error.message)
     res.status(500).json({ error: error.message });
   }
 }

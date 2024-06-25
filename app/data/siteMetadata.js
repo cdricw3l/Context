@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'W3L Lab',
-  author: 'Cédric B.',
+  author: 'CONTEXT',
   headerTitle: 'Web 3 Lac Lab investissement',
   description: 'W3L Lab',
   language: 'fr-FR',

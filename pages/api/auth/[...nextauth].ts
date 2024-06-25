@@ -1,9 +1,10 @@
 // pages/api/auth/[...nextauth].ts
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
-import { getUserFromDb } from "../../../app/utils/db";
-import { signInSchema } from "../../../lib/zod";
-import { ZodError } from "zod";
+import { prisma } from "../../../lib/prisma"; // Assurez-vous que votre prisma client est correctement configuré
+import { getUserFromDb } from "../../../app/utils/db"; // Fonction personnalisée pour obtenir l'utilisateur de la base de données
+import { signInSchema } from "../../../lib/zod"; // Schéma Zod pour la validation des données d'entrée
+import { ZodError } from "zod"; // Classe d'erreur pour les erreurs de validation Zod
 
 export default NextAuth({
   providers: [
@@ -15,12 +16,9 @@ export default NextAuth({
       authorize: async (credentials) => {
         try {
           const { email, password } = await signInSchema.parseAsync(credentials);
-          console.log('Email:', email); // Debug
-          console.log('Password:', password); // Debug
           const user = await getUserFromDb(email, password);
 
           if (!user) {
-            console.error("User not found.");
             return null;
           }
 
@@ -32,10 +30,8 @@ export default NextAuth({
           };
         } catch (error) {
           if (error instanceof ZodError) {
-            console.error("Validation error:", error.errors);
             return null;
           }
-          console.error("Error in authorize:", error);
           throw error;
         }
       },
@@ -43,12 +39,113 @@ export default NextAuth({
   ],
   secret: process.env.NEXTAUTH_SECRET,
   session: {
-    strategy: 'jwt',
+    strategy: 'jwt', // Utiliser JWT pour gérer les sessions
   },
   jwt: {
     secret: process.env.NEXTAUTH_SECRET,
   },
   pages: {
-    signIn: '/signIn',
+    signIn: '/signIn', // Page de connexion personnalisée
+  },
+  callbacks: {
+    async session({ session, token }) {
+      if (token) {
+        session.user.id = token.id as string;
+        session.user.email = token.email as string;
+      }
+      return session;
+    },
+    async jwt({ token, user }) {
+      if (user) {
+        token.id = user.id;
+        token.email = user.email;
+      }
+      return token;
+    },
+  },
+  events: {
+    async signIn(message) {
+      const { user, account } = message;
+      // Ajouter une entrée dans le journal des événements pour l'authentification réussie
+      await prisma.eventLog.create({
+        data: {
+          eventType: 'signIn',
+          eventData: {
+            userId: user.id,
+            email: user.email,
+            provider: account?.provider,
+          },
+        },
+      });
+    },
+    async signOut(message) {
+      const { token, session } = message;
+      const userId = token?.id || session?.user?.id;
+
+      if (userId) {
+        await prisma.eventLog.create({
+          data: {
+            eventType: 'signOut',
+            eventData: {
+              userId,
+              email: token?.email || session?.user?.email,
+            },
+          },
+        });
+      }
+    },
+    async createUser(message) {
+      const { user } = message;
+      // Ajouter une entrée dans le journal des événements pour la création d'utilisateur
+      await prisma.eventLog.create({
+        data: {
+          eventType: 'createUser',
+          eventData: {
+            userId: user.id,
+            email: user.email,
+          },
+        },
+      });
+    },
+    async updateUser(message) {
+      const { user } = message;
+      // Ajouter une entrée dans le journal des événements pour la mise à jour de l'utilisateur
+      await prisma.eventLog.create({
+        data: {
+          eventType: 'updateUser',
+          eventData: {
+            userId: user.id,
+            email: user.email,
+          },
+        },
+      });
+    },
+    async linkAccount(message) {
+      const { user, account } = message;
+      // Ajouter une entrée dans le journal des événements pour le lien de compte
+      await prisma.eventLog.create({
+        data: {
+          eventType: 'linkAccount',
+          eventData: {
+            userId: user.id,
+            email: user.email,
+            provider: account.provider,
+          },
+        },
+      });
+    },
+    async session(message) {
+      const { session } = message;
+      // Ajouter une entrée dans le journal des événements pour la session active
+      await prisma.eventLog.create({
+        data: {
+          eventType: 'session',
+          eventData: {
+            userId: session.user.id,
+            email: session.user.email,
+          },
+        },
+      });
+    },
   },
 });

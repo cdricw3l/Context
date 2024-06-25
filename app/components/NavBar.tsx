@@ -1,3 +1,5 @@
+// app/components/NavBar.tsx
+
 import React, { useState, useEffect } from 'react';
 import Logo from '../data/logo.svg';
 import Tree from './Tree';
@@ -12,15 +14,18 @@ import { generateTextTree } from '../utils/treeUtils';
 import Footer from './Footer'; // Assurez-vous d'importer le composant Footer
 import path from 'path';
 import PaymentModal from './PaymentModal'; // Import the PaymentModal component
+import { useSession } from 'next-auth/react'; // Import useSession from next-auth/react
 
 const NavBar: React.FC = () => {
+  
+  const { data: session } = useSession(); // Get the session data
   const [repoUrl, setRepoUrl] = useState('');
   const [branches, setBranches] = useState<string[]>([]);
   const [selectedBranch, setSelectedBranch] = useState('');
   const [defaultBranch, setDefaultBranch] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState<boolean>(false);
-  const { setFileDetails, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, plan, setShowModal,showModal, messages, fileDetails, textTree, setTextTree } = useResponse();
+  const { setFileDetails, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, plan, setShowModal, showModal, messages, fileDetails, textTree, setTextTree } = useResponse();
   const [aggregationSuccess, setAggregationSuccess] = useState(false);
 
   const fetchTree = async () => {
@@ -45,8 +50,8 @@ const NavBar: React.FC = () => {
       if (res.ok) {
         const newFileDetail: FileDetail = {
           fileName,
-          fileContent:  data.content,
-          fileContentMinimized:  data.content.replace(/\n/g, ' '),
+          fileContent: data.content,
+          fileContentMinimized: data.content.replace(/\n/g, ' '),
           isBinary: data.isBinary,
           fileDetail: {
             imports: data.imports,
@@ -124,9 +129,20 @@ const NavBar: React.FC = () => {
     <div className="flex flex-col h-full min-h-screen">
       {showModal && <PaymentModal onClose={() => setShowModal(false)} />}
       <div className="flex flex-col flex-grow p-4">
-        <div className="flex justify-center space-x-5 p-4">
-          <Logo />
-          <ButtonLogout />
+      
+        <div className="flex justify-center space-x-5 p-4 items-center">
+        <Logo />
+          <div className="flex  items-center">
+            {session ? (
+              <>
+                <span className="text-green-500 mr-2">●</span>
+                <ButtonLogout />
+                
+              </>
+            ) : (
+              <span className="text-white">Not logged in</span>
+            )}
+          </div>
         </div>
         <div className="justify-center p-4 w-full">
           <InputForm

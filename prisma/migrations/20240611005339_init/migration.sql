@@ -7,7 +7,7 @@ CREATE TABLE "User" (
     "email" TEXT NOT NULL,
     "password" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" TIMESTAMP(3) NOT NULL,
+    "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
@@ -20,8 +20,12 @@ CREATE TABLE "Subscription" (
     "status" "SubscriptionStatus" NOT NULL,
     "currentPeriodStart" TIMESTAMP(3) NOT NULL,
     "currentPeriodEnd" TIMESTAMP(3) NOT NULL,
+    "billingCycleAnchor" TIMESTAMP(3) NOT NULL,
+    "cancelAtPeriodEnd" BOOLEAN NOT NULL,
+    "canceledAt" TIMESTAMP(3),
+    "cancellationReason" TEXT,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" TIMESTAMP(3) NOT NULL,
+    "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT "Subscription_pkey" PRIMARY KEY ("id")
 );
@@ -56,6 +60,9 @@ CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Subscription_userId_key" ON "Subscription"("userId");
+
+-- CreateIndex
+CREATE INDEX "Subscription_userId_idx" ON "Subscription"("userId");
 
 -- CreateIndex
 CREATE INDEX "Account_userId_idx" ON "Account"("userId");

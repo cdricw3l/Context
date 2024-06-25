@@ -1,19 +1,55 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useSession } from 'next-auth/react';
 
 interface PaymentModalProps {
   onClose: () => void;
 }
 
 const PaymentModal: React.FC<PaymentModalProps> = ({ onClose }) => {
+  const { data: session } = useSession();
+  const data = session
+
+  console.log('data:', data);
+  const [userExists, setUserExists] = useState<boolean | null>(null);
+
+ 
+
+
+
   const handleCheckout = async (priceId: string) => {
     console.log('priceId:', priceId);
     try {
+      console.log('Checking usebebbbbbbbbr exists...');
+      const response = await fetch('/api/auth/check_user', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to check user');
+      }
+
+      const { exists } = await response.json();
+      setUserExists(exists);
+    } catch (error) {
+      console.error('Error checking user:', error);
+      setUserExists(false);
+    }
+
+    try {
+      if (userExists === false) {
+        window.location.href = '/sign';
+        return;
+      }
+      
       const response = await fetch('/api/auth/checkout_sessions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ priceId }),
+        body: JSON.stringify({ priceId , email: data?.user?.email}),
       });
 
       if (!response.ok) {
@@ -35,6 +71,8 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ onClose }) => {
       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
     </svg>
   );
+
+  
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50">
@@ -63,9 +101,9 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ onClose }) => {
             <p className="mb-4 font-bold text-lg">0$/month</p>
             <button
               className="bg-gradient-to-r from-purple-500 to-transparent via-re bg-green-500 text-black px-4 py-2 rounded"
-              onClick={() => handleCheckout(process.env.NEXT_PUBLIC_STRIPE_PRICE_FREE!)}
+              onClick={() => onClose()}
             >
-              Choose Free
+              Continue as visitor
             </button>
           </div>
           {/* Medium Plan */}
@@ -73,8 +111,8 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ onClose }) => {
             <h3 className="text-xl font-bold mb-4">Medium</h3>
             <p className="mb-4">2 contexts 5 files per context.</p>
             <div className="mb-4 text-left">
-              {checkmark} 2 contexts<br />
-              {checkmark} 5 files per context<br />
+              {checkmark} 1 contexts<br />
+              {checkmark} 15 files per context<br />
               {checkmark} Enhanced features<br />
             </div>
             <p className="mb-4 font-bold text-lg">10$/month</p>
