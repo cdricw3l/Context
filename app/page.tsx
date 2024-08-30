@@ -12,9 +12,9 @@ const Home: React.FC = () => {
       <div className="w-64 shadow-md">
         <NavBar />
       </div>
-      <div className="flex-1 grid grid-cols-2">
+      <div className="flex-1 grid grid-cols-1">
         <div>
-          <RightPanel />
+          {/* <RightPanel /> */}
         </div>
         <div>
           <LeftPanel />

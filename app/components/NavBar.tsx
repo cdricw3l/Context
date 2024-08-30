@@ -4,7 +4,7 @@ import Tree from './Tree';
 import { useResponse } from '../context/ResponseContext';
 import InputForm from './InputForm';
 import ErrorMessage from './ErrorMessage';
-import Loading from './Loading';
+//import Loading from './Loading';
 import ButtonLogout from './ButtonLogout';
 import ButtonCopy from './ButtonCopy';
 import { FileNode } from '../utils/types';
@@ -13,8 +13,7 @@ import { generateTextTree } from '../utils/treeUtils';
 import Footer from './Footer'; // Assurez-vous d'importer le composant Footer
 
 const NavBar: React.FC = () => {
-  
-  const [repoUrl, setRepoUrl] = useState('');
+
   const [branches, setBranches] = useState<string[]>([]);
   const [selectedBranch, setSelectedBranch] = useState('');
   const [error, setError] = useState('');
@@ -22,7 +21,7 @@ const NavBar: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [tille, settail] = useState('');
 
-  const { response, setResponse, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, setIsTextView } = useResponse();
+  const { response, setResponse, treeData, setTreeData, userTreeState, setUserTreeState, isTextView, setIsTextView , repoUrl,setRepoUrl} = useResponse();
 
   const fetchTree = async () => {
     setLoading(true);
@@ -78,8 +77,8 @@ const NavBar: React.FC = () => {
             fetchBranchTree={fetchBranchTree}
           />
         </div>
-
-        {loading && <Loading />}
+        
+        {/*loading && <Loading />*/}
 
         <div className="py-1 px-1 w-full overflow-y-scroll flex-grow" style={{ maxHeight: 'calc(50vh - 5rem)' }}>
           <div className="flex flex-col">

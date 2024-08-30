@@ -14,6 +14,8 @@ interface ResponseContextProps {
   setIsTextView: React.Dispatch<React.SetStateAction<boolean>>;
   structure: Directory | null;
   setStructure: React.Dispatch<React.SetStateAction<Directory | null>>;
+  repoUrl: string;
+  setRepoUrl: React.Dispatch<React.SetStateAction<string>>;
 }
 
 const ResponseContext = createContext<ResponseContextProps | undefined>(undefined);
@@ -33,6 +35,7 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [userTreeState, setUserTreeState] = useState<FileNode | null>(null);
   const [isTextView, setIsTextView] = useState<boolean>(false);
   const [structure, setStructure] = useState<Directory | null>(null);
+  const [repoUrl, setRepoUrl] = useState<string>(''); // Ajouter l'état repoUrl
 
   return (
     <ResponseContext.Provider
@@ -47,6 +50,8 @@ export const ResponseProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setIsTextView,
         structure,
         setStructure,
+        repoUrl,
+        setRepoUrl,
       }}
     >
       {children}

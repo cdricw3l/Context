@@ -17,13 +17,14 @@ interface FileDetail {
 
 export default function LeftPanel() {
   const [error, setError] = useState('');
-  const [repoUrl, setRepoUrl] = useState('https://github.com/jhonny-jane-w3l/next_rust_gpt.git');
   const [branch, setBranch] = useState('main');
-  const [accessToken, setAccessToken] = useState('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');
-  const { response, setResponse, treeData, setTreeData, userTreeState, setUserTreeState } = useResponse();
+  const accessToken = process.env.GITHUB_TOKEN;
+  const { response, setResponse, treeData, setTreeData, userTreeState, setUserTreeState,repoUrl } = useResponse();
   const [selectedOption, setSelectedOption] = useState('global');
   const [fileDetails, setFileDetails] = useState<FileDetail[]>([]);
   const [isMinimizedView, setIsMinimizedView] = useState(false); // New state
+
+
 
   const fetchRepoTree = async () => {
     console.log("Fetching tree for repo: ", repoUrl);
